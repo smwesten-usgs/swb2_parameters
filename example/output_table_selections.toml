@@ -1,0 +1,15 @@
+# Choose the leading key in the wide output
+primary_key = "cdl"  # or "nlcd"
+
+# Families to expand to HSG indices
+include_families = ["cn", "rz", "max_net_infil"]
+
+# Singletons to pass through unchanged
+include_explicit = [
+  "growing_season_interception",
+  "nongrowing_season_interception",
+  "kcb_ini", "kcb_mid", "kcb_end", "kcb_min",
+  "depletion_fraction"
+]
+
+# Hydrologic soil group count

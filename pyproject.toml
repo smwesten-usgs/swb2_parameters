@@ -1,0 +1,21 @@
+[project]
+name = "swb2_parameters"
+version = "0.1.0"
+description = "Long→wide parameter builder for SWB2 (CDL/NLCD, HSG families, singletons)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Stephen M. Westenbroek" }]
+dependencies = [
+  "pandas>=2.1",
+  "numpy>=1.25",
+]
+
+[project.scripts]
+swb2-parameters = "swb2_parameters.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
