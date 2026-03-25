@@ -1,11 +1,16 @@
 # swb2_parameters
 [WIP] Attempt to streamline and standardize SWB2 parameter set creation.
 
-Long→wide parameter builder for SWB2. Human-edited **long** TSV(s) are the source
-of truth; this package expands family parameters (CN, root zone, max net infiltration)
-to HSG indices and writes a **wide** TSV for model runs.
+---
 
-## Install
+## Quickstart
 
 ```bash
+# From the repo root
 pip install -e .
+
+# Build a wide (run-time) table from one or more long TSVs
+swb2-parameters params_long.tsv --selector model_selector.toml --outdir outputs
+
+# Build a long table from a wide table (baseline for editing)
+swb2-parameters params_wide.tsv --selector model_selector.toml --to-long --outdir outputs

@@ -6,57 +6,62 @@ from .expand import expand_row
 
 Value = Union[int, float]
 
+
 def build_wide(
     df_long: pd.DataFrame,
     primary_key: Literal["cdl", "nlcd"],
     include_families: List[str],
     include_explicit: List[str],
     hsg_count: int = 7,
-    condition_filter: str | None = None,
+    drained_condition_filter: str | None = None,
 ) -> pd.DataFrame:
-    """Build the wide output from normalized/validated long dataframe.
+    """Construct the SWB2‑ready *wide* table from the canonical *long* table.
+
+    Leading key column is always **`lu_code`** to satisfy SWB2.
+    We source `lu_code` from either `lu_cdl` or `lu_nlcd` depending on the
+    selector’s `primary_key`. A single **`description`** column is also carried
+    forward into wide by choosing the first non-empty description per `lu_code`.
 
     Args:
-        df_long: normalized & validated long dataframe (with parval1 rounded).
-        primary_key: 'cdl' or 'nlcd' key to use in wide table.
-        include_families: list of family names to expand (cn, rz, max_net_infil).
-        include_explicit: singleton column names to pass through.
-        hsg_count: expected HSG count (default 7). Supports 7 or 4.
-        condition_filter: if provided ('drained'/'undrained'), include only rows with that condition.
+        df_long: Normalized & validated long DataFrame (with `parval1` rounded).
+        primary_key: "cdl" or "nlcd"; selects the source key for `lu_code`.
+        include_families: Families to expand (e.g., ['cn','rz','max_net_infil']).
+        include_explicit: Singleton columns to pass through unchanged.
+        hsg_count: HSG count (usually 7; 4 supported by dropping 5..7).
+        drained_condition_filter: If provided, include only rows with this drained condition.
 
     Returns:
-        wide dataframe with leading key column and selected parameters.
+        Wide DataFrame with `lu_code`, `description`, requested families, and singletons.
     """
-    key_col = "lu_cdl" if primary_key == "cdl" else "lu_nlcd"
+    src_key_col = "lu_cdl" if primary_key == "cdl" else "lu_nlcd"
 
-    # Filter rows based on chosen key & optional condition
+    # Filter rows based on chosen source key & optional drained condition
     df = df_long.copy()
-    df = df[df[key_col].astype(str).str.len() > 0]  # drop rows with empty chosen key
-    if condition_filter:
-        df = df[df["condition"] == condition_filter]
+    df = df[df[src_key_col].astype(str).str.len() > 0]
+    if drained_condition_filter:
+        df = df[df["drained_condition"] == drained_condition_filter]
 
-    # Collect rows into a dict keyed by chosen primary key
-    rows: Dict[str, Dict[str, Value]] = {}
-
+    rows: Dict[str, Dict[str, Value | str]] = {}
     for _, r in df.iterrows():
-        k = r[key_col]
+        k = r[src_key_col]
         expanded = expand_row(r, include_families, include_explicit)
-        if not expanded:
-            continue
         rows.setdefault(k, {})
-        rows[k].update(expanded)  # duplicate-prevention is handled earlier
+        # Carry over a single description (first non-empty wins)
+        desc = str(r.get("description", "")).strip()
+        if desc and not rows[k].get("description"):
+            rows[k]["description"] = desc
+        if expanded:
+            rows[k].update(expanded)
 
     if not rows:
-        return pd.DataFrame(columns=[key_col])
+        return pd.DataFrame(columns=["lu_code", "description"])
 
-    wide = pd.DataFrame.from_dict(rows, orient="index").reset_index().rename(columns={"index": key_col})
+    wide = pd.DataFrame.from_dict(rows, orient="index").reset_index().rename(columns={"index": "lu_code"})
 
-    # If hsg_count == 4, drop indices 5..7
     if hsg_count == 4:
         drop_cols = [c for c in wide.columns if c.endswith(("_5", "_6", "_7"))]
         wide = wide.drop(columns=drop_cols)
 
-    # Order columns: key first, families expanded, then singletons
     fam_cols: List[str] = []
     for fam in include_families:
         prefix = {"cn": "cn_", "rz": "rz_", "max_net_infil": "max_net_infil_"}[fam]
@@ -64,7 +69,7 @@ def build_wide(
         fam_cols += [f"{prefix}{i}" for i in rng if f"{prefix}{i}" in wide.columns]
 
     sing_cols = [c for c in include_explicit if c in wide.columns]
-    cols = [key_col] + fam_cols + sing_cols
+    cols = ["lu_code", "description"] + fam_cols + sing_cols
 
     remaining = [c for c in wide.columns if c not in cols]
     return wide[cols + remaining]

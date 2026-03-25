@@ -1,5 +1,5 @@
-lu_cdl	lu_nlcd	group	column	parlbnd	parubnd	parval1	units	notes	ref	condition
-24	82	small_grains	cn	45.0	65.0		unitless	base CN for small grains	Smith2020Hydrology	drained
-24	82	small_grains	max_net_infil	0.1	0.4		in/day	A soil max infiltration	ABCD1234	drained
-24	82	small_grains	rz	1.5	3.0		ft	root depth (A soil)	Doe2018Roots	drained
-24	82	small_grains	growing_season_interception	0.1	0.2	0.15	in	canopy interception	Johnson2019Veg	drained
+lu_cdl	lu_nlcd	description	group	column	parlbnd	parubnd	parval1	units	notes	ref	condition
+24	82	Winter Wheat	small_grains	cn	45.0	65.0		unitless	base CN for small grains	Smith2020Hydrology	drained
+24	82	Winter Wheat	small_grains	max_net_infil	0.1	0.4		in/day	A soil max infiltration	ABCD1234	drained
+24	82	Winter Wheat	small_grains	rz	1.5	3.0		ft	root depth (A soil)	Doe2018Roots	drained
+24	82	Winter Wheat	small_grains	growing_season_interception	0.1	0.2	0.15	in	canopy interception	Johnson2019Veg	drained
