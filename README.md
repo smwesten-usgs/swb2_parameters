@@ -10,7 +10,7 @@
 pip install -e .
 
 # Build a wide (run-time) table from one or more long TSVs
-swb2-parameters params_long.tsv --selector model_selector.toml --outdir outputs
+swb2-parameters params_long.tsv --selector output_table_selections.toml --outdir outputs
 
 # Build a long table from a wide table (baseline for editing)
-swb2-parameters params_wide.tsv --selector model_selector.toml --to-long --outdir outputs
+swb2-parameters params_wide.tsv --selector output_table_selections.toml --to-long --outdir outputs
