@@ -9,7 +9,10 @@ include_explicit = [
   "growing_season_interception",
   "nongrowing_season_interception",
   "kcb_ini", "kcb_mid", "kcb_end", "kcb_min",
-  "depletion_fraction"
+  "depletion_fraction", 
+  "rew_1", "rew_2", "rew_3", "rew_4", "rew_5", "rew_6", "rew_7",
+  "tew_1", "tew_2", "tew_3", "tew_4", "tew_5", "tew_6", "tew_7",
 ]
 
 # Hydrologic soil group count
+hsg_count = 7

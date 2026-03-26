@@ -1,0 +1,15 @@
+lu_cdl	lu_nlcd	description	group	column	parlbnd	parubnd	parval1	units	notes	ref	drained_condition
+		REW soil grp 1	ALL	rew_1	0.09	0.15	0.12	inches			
+		REW soil grp 2	ALL	rew_2	0.17	0.29	0.23	inches			
+		REW soil grp 3	ALL	rew_3	0.23	0.39	0.31	inches			
+		REW soil grp 4	ALL	rew_4	0.26	0.44	0.35	inches			
+		REW soil grp 5	ALL	rew_5	0.09	0.15	0.12	inches			
+		REW soil grp 6	ALL	rew_6	0.17	0.29	0.23	inches			
+		REW soil grp 7	ALL	rew_7	0.23	0.39	0.31	inches			
+		TEW soil grp 1	ALL	tew_1	0.21	0.35	0.28	inches			
+		TEW soil grp 2	ALL	tew_2	0.45	0.75	0.6	inches			
+		TEW soil grp 3	ALL	tew_3	0.65	1.08	0.86	inches			
+		TEW soil grp 4	ALL	tew_4	0.71	1.18	0.94	inches			
+		TEW soil grp 5	ALL	tew_5	0.21	0.35	0.28	inches			
+		TEW soil grp 6	ALL	tew_6	0.45	0.75	0.6	inches			
+		TEW soil grp 7	ALL	tew_7	0.65	1.08	0.86	inches			

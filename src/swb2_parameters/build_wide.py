@@ -69,6 +69,10 @@ def build_wide(
         fam_cols += [f"{prefix}{i}" for i in rng if f"{prefix}{i}" in wide.columns]
 
     sing_cols = [c for c in include_explicit if c in wide.columns]
+    requested_missing = [c for c in include_explicit if c not in wide.columns]
+    if requested_missing:
+        print(f"[WARN] Explicit columns requested but absent in LONG/materialized data: {', '.join(requested_missing)}")
+
     cols = ["lu_code", "description"] + fam_cols + sing_cols
 
     remaining = [c for c in wide.columns if c not in cols]

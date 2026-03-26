@@ -8,6 +8,7 @@ from swb2_parameters.io import load_long_files, load_selector
 from swb2_parameters.validate import validate_duplicates, compute_and_round
 from swb2_parameters.build_wide import build_wide
 from swb2_parameters.reverse import make_long_from_wide
+from swb2_parameters.group_templates import materialize_group_templates
 
 
 def main() -> int:
@@ -33,6 +34,7 @@ def main() -> int:
     ap.add_argument("--selector", required=True, help="Path to TOML selector.")
     ap.add_argument("--outdir", default=".", help="Output directory (default current).")
     ap.add_argument("--outfile", default="params_wide.tsv", help="Output filename (TSV).")
+    ap.add_argument("--groups", help="Path to groups.tsv (columns: lu_cdl, lu_nlcd, group). Optional.")
     ap.add_argument(
         "--drained-condition",
         dest="drained_condition",
@@ -63,6 +65,13 @@ def main() -> int:
     if not args.to_long:
         # ---------- Forward: long → wide ----------
         df_long = load_long_files(tsv_paths)
+        
+        df_long = materialize_group_templates(
+            df_long=df_long,
+            primary_key=primary_key,
+            groups_path=args.groups,  # may be None → only ALL applies
+        )
+
         validate_duplicates(df_long)
         df_long = compute_and_round(df_long)
 
