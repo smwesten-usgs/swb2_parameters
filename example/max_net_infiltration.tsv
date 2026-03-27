@@ -1,0 +1,8 @@
+lu_cdl	lu_nlcd	description	group	column	parlbnd	parubnd	parval1	units	notes	ref	drained_condition
+		Maximum net infiltration grp 1	ALL	max_net_infil_1	2.1	3.1	2.6	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	
+		Maximum net infiltration grp 2	ALL	max_net_infil_2	0.75	1.25	1.0	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	
+		Maximum net infiltration grp 3	ALL	max_net_infil_3	0.5	0.8	0.67	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	
+		Maximum net infiltration grp 4	ALL	max_net_infil_4	0.1	0.3	0.2	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	
+		Maximum net infiltration grp 5	ALL	max_net_infil_5	2.1	3.1	2.6	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	
+		Maximum net infiltration grp 6	ALL	max_net_infil_6	0.75	1.25	1.0	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	
+		Maximum net infiltration grp 7	ALL	max_net_infil_7	0.5	0.8	0.67	inches	Estimated using State of Minnesota Stormwater guidance	https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates	

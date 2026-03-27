@@ -3,6 +3,7 @@ primary_key = "cdl"  # or "nlcd"
 
 # Families to expand to HSG indices
 include_families = ["cn", "rz", "max_net_infil"]
+#include_families = ["cn", "rz"]
 
 # Singletons to pass through unchanged
 include_explicit = [
@@ -12,6 +13,9 @@ include_explicit = [
   "depletion_fraction", 
   "rew_1", "rew_2", "rew_3", "rew_4", "rew_5", "rew_6", "rew_7",
   "tew_1", "tew_2", "tew_3", "tew_4", "tew_5", "tew_6", "tew_7",
+#  "max_net_infil_1", "max_net_infil_2", "max_net_infil_3", 
+#  "max_net_infil_4", "max_net_infil_5", "max_net_infil_6",
+#  "max_net_infil_7"
 ]
 
 # Hydrologic soil group count

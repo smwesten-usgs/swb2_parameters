@@ -1,0 +1,1018 @@
+lu_cdl	lu_nlcd	description	group	column	parlbnd	parubnd	parval1	units	notes	ref	drained_condition
+		Max net infiltration grp	ALL	max_net_infil	2.5	3.5	3.0	in/day			
+1		Corn		cn	63	78	71	unitless			
+1		Corn		growing_season_interception_a	0.06	0.1	0.08				
+1		Corn		growing_season_interception_b	0	0	0				
+1		Corn		growing_season_interception_n	0.75	1.25	1				
+1		Corn		nongrowing_season_interception_a	0	0	0				
+1		Corn		nongrowing_season_interception_b	0	0	0				
+1		Corn		nongrowing_season_interception_n	0.75	1.25	1				
+1		Corn		rz	1.05	1.75	1.4	ft			
+2		Cotton		cn	63	78	71	unitless			
+2		Cotton		growing_season_interception_a	0.045	0.075	0.06				
+2		Cotton		growing_season_interception_b	0	0	0				
+2		Cotton		growing_season_interception_n	0.75	1.25	1				
+2		Cotton		nongrowing_season_interception_a	0	0	0				
+2		Cotton		nongrowing_season_interception_b	0	0	0				
+2		Cotton		nongrowing_season_interception_n	0.75	1.25	1				
+2		Cotton		rz	1.125	1.875	1.5	ft			
+3		Rice		cn	63	78	71	unitless			
+3		Rice		growing_season_interception_a	0.06	0.1	0.08				
+3		Rice		growing_season_interception_b	0	0	0				
+3		Rice		growing_season_interception_n	0.75	1.25	1				
+3		Rice		nongrowing_season_interception_a	0	0	0				
+3		Rice		nongrowing_season_interception_b	0	0	0				
+3		Rice		nongrowing_season_interception_n	0.75	1.25	1				
+3		Rice		rz	1.125	1.875	1.5	ft			
+4		Sorghum		cn	64	79	72	unitless			
+4		Sorghum		growing_season_interception_a	0.06	0.1	0.08				
+4		Sorghum		growing_season_interception_b	0	0	0				
+4		Sorghum		growing_season_interception_n	0.75	1.25	1				
+4		Sorghum		nongrowing_season_interception_a	0	0	0				
+4		Sorghum		nongrowing_season_interception_b	0	0	0				
+4		Sorghum		nongrowing_season_interception_n	0.75	1.25	1				
+4		Sorghum		rz	1.125	1.875	1.5	ft			
+5		Soybeans		cn	54	66	60	unitless			
+5		Soybeans		growing_season_interception_a	0.06	0.1	0.08				
+5		Soybeans		growing_season_interception_b	0	0	0				
+5		Soybeans		growing_season_interception_n	0.75	1.25	1				
+5		Soybeans		nongrowing_season_interception_a	0	0	0				
+5		Soybeans		nongrowing_season_interception_b	0	0	0				
+5		Soybeans		nongrowing_season_interception_n	0.75	1.25	1				
+5		Soybeans		rz	2.94	4.9	3.92	ft			
+6		Sunflower		cn	60	73	67	unitless			
+6		Sunflower		growing_season_interception_a	0.06	0.1	0.08				
+6		Sunflower		growing_season_interception_b	0	0	0				
+6		Sunflower		growing_season_interception_n	0.75	1.25	1				
+6		Sunflower		nongrowing_season_interception_a	0	0	0				
+6		Sunflower		nongrowing_season_interception_b	0	0	0				
+6		Sunflower		nongrowing_season_interception_n	0.75	1.25	1				
+6		Sunflower		rz	1.125	1.875	1.5	ft			
+10		Peanuts		cn	60	73	67	unitless			
+10		Peanuts		growing_season_interception_a	0.06	0.1	0.08				
+10		Peanuts		growing_season_interception_b	0	0	0				
+10		Peanuts		growing_season_interception_n	0.75	1.25	1				
+10		Peanuts		nongrowing_season_interception_a	0	0	0				
+10		Peanuts		nongrowing_season_interception_b	0	0	0				
+10		Peanuts		nongrowing_season_interception_n	0.75	1.25	1				
+10		Peanuts		rz	1.125	1.875	1.5	ft			
+11		Tobacco		cn	60	73	67	unitless			
+11		Tobacco		growing_season_interception_a	0.06	0.1	0.08				
+11		Tobacco		growing_season_interception_b	0	0	0				
+11		Tobacco		growing_season_interception_n	0.75	1.25	1				
+11		Tobacco		nongrowing_season_interception_a	0	0	0				
+11		Tobacco		nongrowing_season_interception_b	0	0	0				
+11		Tobacco		nongrowing_season_interception_n	0.75	1.25	1				
+11		Tobacco		rz	1.125	1.875	1.5	ft			
+12		Sweet Corn		cn	60	73	67	unitless			
+12		Sweet Corn		growing_season_interception_a	0.06	0.1	0.08				
+12		Sweet Corn		growing_season_interception_b	0	0	0				
+12		Sweet Corn		growing_season_interception_n	0.75	1.25	1				
+12		Sweet Corn		nongrowing_season_interception_a	0	0	0				
+12		Sweet Corn		nongrowing_season_interception_b	0	0	0				
+12		Sweet Corn		nongrowing_season_interception_n	0.75	1.25	1				
+12		Sweet Corn		rz	1.125	1.875	1.5	ft			
+13		Pop or Orn Corn		cn	60	73	67	unitless			
+13		Pop or Orn Corn		growing_season_interception_a	0.06	0.1	0.08				
+13		Pop or Orn Corn		growing_season_interception_b	0	0	0				
+13		Pop or Orn Corn		growing_season_interception_n	0.75	1.25	1				
+13		Pop or Orn Corn		nongrowing_season_interception_a	0	0	0				
+13		Pop or Orn Corn		nongrowing_season_interception_b	0	0	0				
+13		Pop or Orn Corn		nongrowing_season_interception_n	0.75	1.25	1				
+13		Pop or Orn Corn		rz	1.125	1.875	1.5	ft			
+14		Mint		cn	60	73	67	unitless			
+14		Mint		growing_season_interception_a	0.06	0.1	0.08				
+14		Mint		growing_season_interception_b	0	0	0				
+14		Mint		growing_season_interception_n	0.75	1.25	1				
+14		Mint		nongrowing_season_interception_a	0	0	0				
+14		Mint		nongrowing_season_interception_b	0	0	0				
+14		Mint		nongrowing_season_interception_n	0.75	1.25	1				
+14		Mint		rz	1.125	1.875	1.5	ft			
+21		Barley		cn	49	60	55.2	unitless			
+21		Barley		growing_season_interception_a	0.06	0.1	0.08				
+21		Barley		growing_season_interception_b	0	0	0				
+21		Barley		growing_season_interception_n	0.75	1.25	1				
+21		Barley		nongrowing_season_interception_a	0	0	0				
+21		Barley		nongrowing_season_interception_b	0	0	0				
+21		Barley		nongrowing_season_interception_n	0.75	1.25	1				
+21		Barley		rz	0.93	1.55	1.24	ft			
+22		Durham Wheat		cn	49	60	55.2	unitless			
+22		Durham Wheat		growing_season_interception_a	0.06	0.1	0.08				
+22		Durham Wheat		growing_season_interception_b	0	0	0				
+22		Durham Wheat		growing_season_interception_n	0.75	1.25	1				
+22		Durham Wheat		nongrowing_season_interception_a	0	0	0				
+22		Durham Wheat		nongrowing_season_interception_b	0	0	0				
+22		Durham Wheat		nongrowing_season_interception_n	0.75	1.25	1				
+22		Durham Wheat		rz	0.93	1.55	1.24	ft			
+23		Spring Wheat		cn	49	60	55.2	unitless			
+23		Spring Wheat		growing_season_interception_a	0.06	0.1	0.08				
+23		Spring Wheat		growing_season_interception_b	0	0	0				
+23		Spring Wheat		growing_season_interception_n	0.75	1.25	1				
+23		Spring Wheat		nongrowing_season_interception_a	0	0	0				
+23		Spring Wheat		nongrowing_season_interception_b	0	0	0				
+23		Spring Wheat		nongrowing_season_interception_n	0.75	1.25	1				
+23		Spring Wheat		rz	0.93	1.55	1.24	ft			
+24		Winter Wheat		cn	49	60	55.2	unitless			
+24		Winter Wheat		growing_season_interception_a	0.06	0.1	0.08				
+24		Winter Wheat		growing_season_interception_b	0	0	0				
+24		Winter Wheat		growing_season_interception_n	0.75	1.25	1				
+24		Winter Wheat		nongrowing_season_interception_a	0	0	0				
+24		Winter Wheat		nongrowing_season_interception_b	0	0	0				
+24		Winter Wheat		nongrowing_season_interception_n	0.75	1.25	1				
+24		Winter Wheat		rz	0.93	1.55	1.24	ft			
+25		Other Small Grains		cn	49	60	55.2	unitless			
+25		Other Small Grains		growing_season_interception_a	0.06	0.1	0.08				
+25		Other Small Grains		growing_season_interception_b	0	0	0				
+25		Other Small Grains		growing_season_interception_n	0.75	1.25	1				
+25		Other Small Grains		nongrowing_season_interception_a	0	0	0				
+25		Other Small Grains		nongrowing_season_interception_b	0	0	0				
+25		Other Small Grains		nongrowing_season_interception_n	0.75	1.25	1				
+25		Other Small Grains		rz	0.93	1.55	1.24	ft			
+26		Dbl Crop WinWht/Soybeans		cn	49	60	55.2	unitless			
+26		Dbl Crop WinWht/Soybeans		growing_season_interception_a	0.06	0.1	0.08				
+26		Dbl Crop WinWht/Soybeans		growing_season_interception_b	0	0	0				
+26		Dbl Crop WinWht/Soybeans		growing_season_interception_n	0.75	1.25	1				
+26		Dbl Crop WinWht/Soybeans		nongrowing_season_interception_a	0	0	0				
+26		Dbl Crop WinWht/Soybeans		nongrowing_season_interception_b	0	0	0				
+26		Dbl Crop WinWht/Soybeans		nongrowing_season_interception_n	0.75	1.25	1				
+26		Dbl Crop WinWht/Soybeans		rz	0.93	1.55	1.24	ft			
+27		Rye		cn	49	60	55.2	unitless			
+27		Rye		growing_season_interception_a	0.06	0.1	0.08				
+27		Rye		growing_season_interception_b	0	0	0				
+27		Rye		growing_season_interception_n	0.75	1.25	1				
+27		Rye		nongrowing_season_interception_a	0	0	0				
+27		Rye		nongrowing_season_interception_b	0	0	0				
+27		Rye		nongrowing_season_interception_n	0.75	1.25	1				
+27		Rye		rz	0.93	1.55	1.24	ft			
+28		Oats		cn	49	60	55.2	unitless			
+28		Oats		growing_season_interception_a	0.06	0.1	0.08				
+28		Oats		growing_season_interception_b	0	0	0				
+28		Oats		growing_season_interception_n	0.75	1.25	1				
+28		Oats		nongrowing_season_interception_a	0	0	0				
+28		Oats		nongrowing_season_interception_b	0	0	0				
+28		Oats		nongrowing_season_interception_n	0.75	1.25	1				
+28		Oats		rz	0.93	1.55	1.24	ft			
+29		Millet		cn	49	60	55.2	unitless			
+29		Millet		growing_season_interception_a	0.06	0.1	0.08				
+29		Millet		growing_season_interception_b	0	0	0				
+29		Millet		growing_season_interception_n	0.75	1.25	1				
+29		Millet		nongrowing_season_interception_a	0	0	0				
+29		Millet		nongrowing_season_interception_b	0	0	0				
+29		Millet		nongrowing_season_interception_n	0.75	1.25	1				
+29		Millet		rz	0.93	1.55	1.24	ft			
+30		Spelt		cn	49	60	55.2	unitless			
+30		Spelt		growing_season_interception_a	0.06	0.1	0.08				
+30		Spelt		growing_season_interception_b	0	0	0				
+30		Spelt		growing_season_interception_n	0.75	1.25	1				
+30		Spelt		nongrowing_season_interception_a	0	0	0				
+30		Spelt		nongrowing_season_interception_b	0	0	0				
+30		Spelt		nongrowing_season_interception_n	0.75	1.25	1				
+30		Spelt		rz	0.93	1.55	1.24	ft			
+31		Canola		cn	49	60	55.2	unitless			
+31		Canola		growing_season_interception_a	0.06	0.1	0.08				
+31		Canola		growing_season_interception_b	0	0	0				
+31		Canola		growing_season_interception_n	0.75	1.25	1				
+31		Canola		nongrowing_season_interception_a	0	0	0				
+31		Canola		nongrowing_season_interception_b	0	0	0				
+31		Canola		nongrowing_season_interception_n	0.75	1.25	1				
+31		Canola		rz	0.93	1.55	1.24	ft			
+32		Flaxseed		cn	49	60	55.2	unitless			
+32		Flaxseed		growing_season_interception_a	0.06	0.1	0.08				
+32		Flaxseed		growing_season_interception_b	0	0	0				
+32		Flaxseed		growing_season_interception_n	0.75	1.25	1				
+32		Flaxseed		nongrowing_season_interception_a	0	0	0				
+32		Flaxseed		nongrowing_season_interception_b	0	0	0				
+32		Flaxseed		nongrowing_season_interception_n	0.75	1.25	1				
+32		Flaxseed		rz	0.93	1.55	1.24	ft			
+33		Safflower		cn	49	60	55.2	unitless			
+33		Safflower		growing_season_interception_a	0.06	0.1	0.08				
+33		Safflower		growing_season_interception_b	0	0	0				
+33		Safflower		growing_season_interception_n	0.75	1.25	1				
+33		Safflower		nongrowing_season_interception_a	0	0	0				
+33		Safflower		nongrowing_season_interception_b	0	0	0				
+33		Safflower		nongrowing_season_interception_n	0.75	1.25	1				
+33		Safflower		rz	0.93	1.55	1.24	ft			
+34		Rape Seed		cn	49	60	55.2	unitless			
+34		Rape Seed		growing_season_interception_a	0.06	0.1	0.08				
+34		Rape Seed		growing_season_interception_b	0	0	0				
+34		Rape Seed		growing_season_interception_n	0.75	1.25	1				
+34		Rape Seed		nongrowing_season_interception_a	0	0	0				
+34		Rape Seed		nongrowing_season_interception_b	0	0	0				
+34		Rape Seed		nongrowing_season_interception_n	0.75	1.25	1				
+34		Rape Seed		rz	0.93	1.55	1.24	ft			
+35		Mustard		cn	49	60	55.2	unitless			
+35		Mustard		growing_season_interception_a	0.06	0.1	0.08				
+35		Mustard		growing_season_interception_b	0	0	0				
+35		Mustard		growing_season_interception_n	0.75	1.25	1				
+35		Mustard		nongrowing_season_interception_a	0	0	0				
+35		Mustard		nongrowing_season_interception_b	0	0	0				
+35		Mustard		nongrowing_season_interception_n	0.75	1.25	1				
+35		Mustard		rz	0.93	1.55	1.24	ft			
+36		Alfalfa		cn	67	82	75	unitless			
+36		Alfalfa		growing_season_interception_a	0.06	0.1	0.08				
+36		Alfalfa		growing_season_interception_b	0	0	0				
+36		Alfalfa		growing_season_interception_n	0.75	1.25	1				
+36		Alfalfa		nongrowing_season_interception_a	0	0	0				
+36		Alfalfa		nongrowing_season_interception_b	0	0	0				
+36		Alfalfa		nongrowing_season_interception_n	0.75	1.25	1				
+36		Alfalfa		rz	1.125	1.875	1.5	ft			
+37		Other Hay/Non Alfalfa		cn	57	70	64	unitless			
+37		Other Hay/Non Alfalfa		growing_season_interception_a	0.06	0.1	0.08				
+37		Other Hay/Non Alfalfa		growing_season_interception_b	0	0	0				
+37		Other Hay/Non Alfalfa		growing_season_interception_n	0.75	1.25	1				
+37		Other Hay/Non Alfalfa		nongrowing_season_interception_a	0	0	0				
+37		Other Hay/Non Alfalfa		nongrowing_season_interception_b	0	0	0				
+37		Other Hay/Non Alfalfa		nongrowing_season_interception_n	0.75	1.25	1				
+37		Other Hay/Non Alfalfa		rz	1.125	1.875	1.5	ft			
+38		Camelina		cn	49	60	55.2	unitless			
+38		Camelina		growing_season_interception_a	0.06	0.1	0.08				
+38		Camelina		growing_season_interception_b	0	0	0				
+38		Camelina		growing_season_interception_n	0.75	1.25	1				
+38		Camelina		nongrowing_season_interception_a	0	0	0				
+38		Camelina		nongrowing_season_interception_b	0	0	0				
+38		Camelina		nongrowing_season_interception_n	0.75	1.25	1				
+38		Camelina		rz	0.93	1.55	1.24	ft			
+39		Buckwheat		cn	49	60	55.2	unitless			
+39		Buckwheat		growing_season_interception_a	0.06	0.1	0.08				
+39		Buckwheat		growing_season_interception_b	0	0	0				
+39		Buckwheat		growing_season_interception_n	0.75	1.25	1				
+39		Buckwheat		nongrowing_season_interception_a	0	0	0				
+39		Buckwheat		nongrowing_season_interception_b	0	0	0				
+39		Buckwheat		nongrowing_season_interception_n	0.75	1.25	1				
+39		Buckwheat		rz	0.93	1.55	1.24	ft			
+41		Sugarbeets		cn	60	73	67	unitless			
+41		Sugarbeets		growing_season_interception_a	0.0375	0.0625	0.05				
+41		Sugarbeets		growing_season_interception_b	0	0	0				
+41		Sugarbeets		growing_season_interception_n	0.75	1.25	1				
+41		Sugarbeets		nongrowing_season_interception_a	0	0	0				
+41		Sugarbeets		nongrowing_season_interception_b	0	0	0				
+41		Sugarbeets		nongrowing_season_interception_n	0.75	1.25	1				
+41		Sugarbeets		rz	1.125	1.875	1.5	ft			
+42		Snap beans		cn	60	73	67	unitless			
+42		Snap beans		growing_season_interception_a	0.0375	0.0625	0.05				
+42		Snap beans		growing_season_interception_b	0	0	0				
+42		Snap beans		growing_season_interception_n	0.75	1.25	1				
+42		Snap beans		nongrowing_season_interception_a	0	0	0				
+42		Snap beans		nongrowing_season_interception_b	0	0	0				
+42		Snap beans		nongrowing_season_interception_n	0.75	1.25	1				
+42		Snap beans		rz	1.125	1.875	1.5	ft			
+43		Potatoes		cn	60	73	67	unitless			
+43		Potatoes		growing_season_interception_a	0.0375	0.0625	0.05				
+43		Potatoes		growing_season_interception_b	0	0	0				
+43		Potatoes		growing_season_interception_n	0.75	1.25	1				
+43		Potatoes		nongrowing_season_interception_a	0	0	0				
+43		Potatoes		nongrowing_season_interception_b	0	0	0				
+43		Potatoes		nongrowing_season_interception_n	0.75	1.25	1				
+43		Potatoes		rz	1.125	1.875	1.5	ft			
+44		Other Crops		cn	60	73	67	unitless			
+44		Other Crops		growing_season_interception_a	0.0375	0.0625	0.05				
+44		Other Crops		growing_season_interception_b	0	0	0				
+44		Other Crops		growing_season_interception_n	0.75	1.25	1				
+44		Other Crops		nongrowing_season_interception_a	0	0	0				
+44		Other Crops		nongrowing_season_interception_b	0	0	0				
+44		Other Crops		nongrowing_season_interception_n	0.75	1.25	1				
+44		Other Crops		rz	1.125	1.875	1.5	ft			
+45		Sugarcane		cn	60	73	67	unitless			
+45		Sugarcane		growing_season_interception_a	0.06	0.1	0.08				
+45		Sugarcane		growing_season_interception_b	0	0	0				
+45		Sugarcane		growing_season_interception_n	0.75	1.25	1				
+45		Sugarcane		nongrowing_season_interception_a	0	0	0				
+45		Sugarcane		nongrowing_season_interception_b	0	0	0				
+45		Sugarcane		nongrowing_season_interception_n	0.75	1.25	1				
+45		Sugarcane		rz	1.125	1.875	1.5	ft			
+46		Sweet Potatoes		cn	60	73	67	unitless			
+46		Sweet Potatoes		growing_season_interception_a	0.06	0.1	0.08				
+46		Sweet Potatoes		growing_season_interception_b	0	0	0				
+46		Sweet Potatoes		growing_season_interception_n	0.75	1.25	1				
+46		Sweet Potatoes		nongrowing_season_interception_a	0	0	0				
+46		Sweet Potatoes		nongrowing_season_interception_b	0	0	0				
+46		Sweet Potatoes		nongrowing_season_interception_n	0.75	1.25	1				
+46		Sweet Potatoes		rz	1.125	1.875	1.5	ft			
+47		Misc Vegs and Fruits		cn	60	73	67	unitless			
+47		Misc Vegs and Fruits		growing_season_interception_a	0.0375	0.0625	0.05				
+47		Misc Vegs and Fruits		growing_season_interception_b	0	0	0				
+47		Misc Vegs and Fruits		growing_season_interception_n	0.75	1.25	1				
+47		Misc Vegs and Fruits		nongrowing_season_interception_a	0	0	0				
+47		Misc Vegs and Fruits		nongrowing_season_interception_b	0	0	0				
+47		Misc Vegs and Fruits		nongrowing_season_interception_n	0.75	1.25	1				
+47		Misc Vegs and Fruits		rz	0.75	1.25	1	ft			
+48		Watermelons		cn	60	73	67	unitless			
+48		Watermelons		growing_season_interception_a	0.0375	0.0625	0.05				
+48		Watermelons		growing_season_interception_b	0	0	0				
+48		Watermelons		growing_season_interception_n	0.75	1.25	1				
+48		Watermelons		nongrowing_season_interception_a	0	0	0				
+48		Watermelons		nongrowing_season_interception_b	0	0	0				
+48		Watermelons		nongrowing_season_interception_n	0.75	1.25	1				
+48		Watermelons		rz	0.75	1.25	1	ft			
+49		Onions		cn	60	73	67	unitless			
+49		Onions		growing_season_interception_a	0.0375	0.0625	0.05				
+49		Onions		growing_season_interception_b	0	0	0				
+49		Onions		growing_season_interception_n	0.75	1.25	1				
+49		Onions		nongrowing_season_interception_a	0	0	0				
+49		Onions		nongrowing_season_interception_b	0	0	0				
+49		Onions		nongrowing_season_interception_n	0.75	1.25	1				
+49		Onions		rz	0.75	1.25	1	ft			
+50		Cucumbers		cn	60	73	67	unitless			
+50		Cucumbers		growing_season_interception_a	0.0375	0.0625	0.05				
+50		Cucumbers		growing_season_interception_b	0	0	0				
+50		Cucumbers		growing_season_interception_n	0.75	1.25	1				
+50		Cucumbers		nongrowing_season_interception_a	0	0	0				
+50		Cucumbers		nongrowing_season_interception_b	0	0	0				
+50		Cucumbers		nongrowing_season_interception_n	0.75	1.25	1				
+50		Cucumbers		rz	0.75	1.25	1	ft			
+51		Chick Peas		cn	60	73	67	unitless			
+51		Chick Peas		growing_season_interception_a	0.0375	0.0625	0.05				
+51		Chick Peas		growing_season_interception_b	0	0	0				
+51		Chick Peas		growing_season_interception_n	0.75	1.25	1				
+51		Chick Peas		nongrowing_season_interception_a	0	0	0				
+51		Chick Peas		nongrowing_season_interception_b	0	0	0				
+51		Chick Peas		nongrowing_season_interception_n	0.75	1.25	1				
+51		Chick Peas		rz	0.75	1.25	1	ft			
+52		Lentils		cn	60	73	67	unitless			
+52		Lentils		growing_season_interception_a	0.0375	0.0625	0.05				
+52		Lentils		growing_season_interception_b	0	0	0				
+52		Lentils		growing_season_interception_n	0.75	1.25	1				
+52		Lentils		nongrowing_season_interception_a	0	0	0				
+52		Lentils		nongrowing_season_interception_b	0	0	0				
+52		Lentils		nongrowing_season_interception_n	0.75	1.25	1				
+52		Lentils		rz	1.125	1.875	1.5	ft			
+53		Peas		cn	60	73	67	unitless			
+53		Peas		growing_season_interception_a	0.0375	0.0625	0.05				
+53		Peas		growing_season_interception_b	0	0	0				
+53		Peas		growing_season_interception_n	0.75	1.25	1				
+53		Peas		nongrowing_season_interception_a	0	0	0				
+53		Peas		nongrowing_season_interception_b	0	0	0				
+53		Peas		nongrowing_season_interception_n	0.75	1.25	1				
+53		Peas		rz	0.75	1.25	1	ft			
+54		Tomatoes		cn	60	73	67	unitless			
+54		Tomatoes		growing_season_interception_a	0.0375	0.0625	0.05				
+54		Tomatoes		growing_season_interception_b	0	0	0				
+54		Tomatoes		growing_season_interception_n	0.75	1.25	1				
+54		Tomatoes		nongrowing_season_interception_a	0	0	0				
+54		Tomatoes		nongrowing_season_interception_b	0	0	0				
+54		Tomatoes		nongrowing_season_interception_n	0.75	1.25	1				
+54		Tomatoes		rz	1.125	1.875	1.5	ft			
+55		Caneberries		cn	60	73	67	unitless			
+55		Caneberries		growing_season_interception_a	0.0375	0.0625	0.05				
+55		Caneberries		growing_season_interception_b	0	0	0				
+55		Caneberries		growing_season_interception_n	0.75	1.25	1				
+55		Caneberries		nongrowing_season_interception_a	0	0	0				
+55		Caneberries		nongrowing_season_interception_b	0	0	0				
+55		Caneberries		nongrowing_season_interception_n	0.75	1.25	1				
+55		Caneberries		rz	1.125	1.875	1.5	ft			
+56		Hops		cn	60	73	67	unitless			
+56		Hops		growing_season_interception_a	0.0375	0.0625	0.05				
+56		Hops		growing_season_interception_b	0	0	0				
+56		Hops		growing_season_interception_n	0.75	1.25	1				
+56		Hops		nongrowing_season_interception_a	0	0	0				
+56		Hops		nongrowing_season_interception_b	0	0	0				
+56		Hops		nongrowing_season_interception_n	0.75	1.25	1				
+56		Hops		rz	1.125	1.875	1.5	ft			
+57		Herbs		cn	60	73	67	unitless			
+57		Herbs		growing_season_interception_a	0.03	0.05	0.04				
+57		Herbs		growing_season_interception_b	0	0	0				
+57		Herbs		growing_season_interception_n	0.75	1.25	1				
+57		Herbs		nongrowing_season_interception_a	0	0	0				
+57		Herbs		nongrowing_season_interception_b	0	0	0				
+57		Herbs		nongrowing_season_interception_n	0.75	1.25	1				
+57		Herbs		rz	0.75	1.25	1	ft			
+58		Clover/Wildflowers		cn	44	53	49	unitless			
+58		Clover/Wildflowers		growing_season_interception_a	0.0375	0.0625	0.05				
+58		Clover/Wildflowers		growing_season_interception_b	0	0	0				
+58		Clover/Wildflowers		growing_season_interception_n	0.75	1.25	1				
+58		Clover/Wildflowers		nongrowing_season_interception_a	0	0	0				
+58		Clover/Wildflowers		nongrowing_season_interception_b	0	0	0				
+58		Clover/Wildflowers		nongrowing_season_interception_n	0.75	1.25	1				
+58		Clover/Wildflowers		rz	1.125	1.875	1.5	ft			
+59		Sod/Grass Seed		cn	35	42	39	unitless			
+59		Sod/Grass Seed		growing_season_interception_a	0.0225	0.0375	0.03				
+59		Sod/Grass Seed		growing_season_interception_b	0	0	0				
+59		Sod/Grass Seed		growing_season_interception_n	0.75	1.25	1				
+59		Sod/Grass Seed		nongrowing_season_interception_a	0.0225	0.0375	0.03				
+59		Sod/Grass Seed		nongrowing_season_interception_b	0	0	0				
+59		Sod/Grass Seed		nongrowing_season_interception_n	0.75	1.25	1				
+59		Sod/Grass Seed		rz	1.05	1.75	1.4	ft			
+60		Switchgrass		cn	44	53	49	unitless			
+60		Switchgrass		growing_season_interception_a	0.0525	0.0875	0.07				
+60		Switchgrass		growing_season_interception_b	0	0	0				
+60		Switchgrass		growing_season_interception_n	0.75	1.25	1				
+60		Switchgrass		nongrowing_season_interception_a	0	0	0				
+60		Switchgrass		nongrowing_season_interception_b	0	0	0				
+60		Switchgrass		nongrowing_season_interception_n	0.75	1.25	1				
+60		Switchgrass		rz	1.05	1.75	1.4	ft			
+61		Fallow / Idle		cn	68	83	76	unitless			
+61		Fallow / Idle		growing_season_interception_a	0.015	0.025	0.02				
+61		Fallow / Idle		growing_season_interception_b	0	0	0				
+61		Fallow / Idle		growing_season_interception_n	0.75	1.25	1				
+61		Fallow / Idle		nongrowing_season_interception_a	0	0	0				
+61		Fallow / Idle		nongrowing_season_interception_b	0	0	0				
+61		Fallow / Idle		nongrowing_season_interception_n	0.75	1.25	1				
+61		Fallow / Idle		rz	1.05	1.75	1.4	ft			
+66		Cherries		cn	40	49	45	unitless			
+66		Cherries		growing_season_interception_a	0.06	0.1	0.08				
+66		Cherries		growing_season_interception_b	0	0	0				
+66		Cherries		growing_season_interception_n	0.75	1.25	1				
+66		Cherries		nongrowing_season_interception_a	0.012	0.02	0.016				
+66		Cherries		nongrowing_season_interception_b	0	0	0				
+66		Cherries		nongrowing_season_interception_n	0.75	1.25	1				
+66		Cherries		rz	1.6875	2.8125	2.25	ft			
+67		Peaches		cn	40	49	45	unitless			
+67		Peaches		growing_season_interception_a	0.06	0.1	0.08				
+67		Peaches		growing_season_interception_b	0	0	0				
+67		Peaches		growing_season_interception_n	0.75	1.25	1				
+67		Peaches		nongrowing_season_interception_a	0.012	0.02	0.016				
+67		Peaches		nongrowing_season_interception_b	0	0	0				
+67		Peaches		nongrowing_season_interception_n	0.75	1.25	1				
+67		Peaches		rz	1.6875	2.8125	2.25	ft			
+68		Apples		cn	40	49	45	unitless			
+68		Apples		growing_season_interception_a	0.06	0.1	0.08				
+68		Apples		growing_season_interception_b	0	0	0				
+68		Apples		growing_season_interception_n	0.75	1.25	1				
+68		Apples		nongrowing_season_interception_a	0.012	0.02	0.016				
+68		Apples		nongrowing_season_interception_b	0	0	0				
+68		Apples		nongrowing_season_interception_n	0.75	1.25	1				
+68		Apples		rz	1.6875	2.8125	2.25	ft			
+69		Grapes		cn	52	63	58	unitless			
+69		Grapes		growing_season_interception_a	0.06	0.1	0.08				
+69		Grapes		growing_season_interception_b	0	0	0				
+69		Grapes		growing_season_interception_n	0.75	1.25	1				
+69		Grapes		nongrowing_season_interception_a	0.012	0.02	0.016				
+69		Grapes		nongrowing_season_interception_b	0	0	0				
+69		Grapes		nongrowing_season_interception_n	0.75	1.25	1				
+69		Grapes		rz	1.6875	2.8125	2.25	ft			
+70		Christmas Trees		cn	40	49	45	unitless			
+70		Christmas Trees		growing_season_interception_a	0.06	0.1	0.08				
+70		Christmas Trees		growing_season_interception_b	0	0	0				
+70		Christmas Trees		growing_season_interception_n	0.75	1.25	1				
+70		Christmas Trees		nongrowing_season_interception_a	0.06	0.1	0.08				
+70		Christmas Trees		nongrowing_season_interception_b	0	0	0				
+70		Christmas Trees		nongrowing_season_interception_n	0.75	1.25	1				
+70		Christmas Trees		rz	1.6875	2.8125	2.25	ft			
+71		Other Tree Crops		cn	40	49	45	unitless			
+71		Other Tree Crops		growing_season_interception_a	0.06	0.1	0.08				
+71		Other Tree Crops		growing_season_interception_b	0	0	0				
+71		Other Tree Crops		growing_season_interception_n	0.75	1.25	1				
+71		Other Tree Crops		nongrowing_season_interception_a	0.012	0.02	0.016				
+71		Other Tree Crops		nongrowing_season_interception_b	0	0	0				
+71		Other Tree Crops		nongrowing_season_interception_n	0.75	1.25	1				
+71		Other Tree Crops		rz	1.6875	2.8125	2.25	ft			
+72		Citrus		cn	40	49	45	unitless			
+72		Citrus		growing_season_interception_a	0.06	0.1	0.08				
+72		Citrus		growing_season_interception_b	0	0	0				
+72		Citrus		growing_season_interception_n	0.75	1.25	1				
+72		Citrus		nongrowing_season_interception_a	0.012	0.02	0.016				
+72		Citrus		nongrowing_season_interception_b	0	0	0				
+72		Citrus		nongrowing_season_interception_n	0.75	1.25	1				
+72		Citrus		rz	1.6875	2.8125	2.25	ft			
+74		Pecans		cn	40	49	45	unitless			
+74		Pecans		growing_season_interception_a	0.06	0.1	0.08				
+74		Pecans		growing_season_interception_b	0	0	0				
+74		Pecans		growing_season_interception_n	0.75	1.25	1				
+74		Pecans		nongrowing_season_interception_a	0.012	0.02	0.016				
+74		Pecans		nongrowing_season_interception_b	0	0	0				
+74		Pecans		nongrowing_season_interception_n	0.75	1.25	1				
+74		Pecans		rz	1.6875	2.8125	2.25	ft			
+75		Almonds		cn	40	49	45	unitless			
+75		Almonds		growing_season_interception_a	0.06	0.1	0.08				
+75		Almonds		growing_season_interception_b	0	0	0				
+75		Almonds		growing_season_interception_n	0.75	1.25	1				
+75		Almonds		nongrowing_season_interception_a	0.012	0.02	0.016				
+75		Almonds		nongrowing_season_interception_b	0	0	0				
+75		Almonds		nongrowing_season_interception_n	0.75	1.25	1				
+75		Almonds		rz	1.6875	2.8125	2.25	ft			
+76		Walnuts		cn	32	39	36	unitless			
+76		Walnuts		growing_season_interception_a	0.06	0.1	0.08				
+76		Walnuts		growing_season_interception_b	0	0	0				
+76		Walnuts		growing_season_interception_n	0.75	1.25	1				
+76		Walnuts		nongrowing_season_interception_a	0.012	0.02	0.016				
+76		Walnuts		nongrowing_season_interception_b	0	0	0				
+76		Walnuts		nongrowing_season_interception_n	0.75	1.25	1				
+76		Walnuts		rz	1.6875	2.8125	2.25	ft			
+77		Pears		cn	40	49	45	unitless			
+77		Pears		growing_season_interception_a	0.06	0.1	0.08				
+77		Pears		growing_season_interception_b	0	0	0				
+77		Pears		growing_season_interception_n	0.75	1.25	1				
+77		Pears		nongrowing_season_interception_a	0.012	0.02	0.016				
+77		Pears		nongrowing_season_interception_b	0	0	0				
+77		Pears		nongrowing_season_interception_n	0.75	1.25	1				
+77		Pears		rz	1.6875	2.8125	2.25	ft			
+87		wetland		cn	49	60	55	unitless			
+87		wetland		growing_season_interception_a	0.045	0.075	0.06				
+87		wetland		growing_season_interception_b	0	0	0				
+87		wetland		growing_season_interception_n	0.75	1.25	1				
+87		wetland		nongrowing_season_interception_a	0	0	0				
+87		wetland		nongrowing_season_interception_b	0	0	0				
+87		wetland		nongrowing_season_interception_n	0.75	1.25	1				
+87		wetland		rz	1.4775	2.4625	1.97	ft			
+92		Aquaculture		cn	88	98	98	unitless			
+92		Aquaculture		growing_season_interception_a	0	0	0				
+92		Aquaculture		growing_season_interception_b	0	0	0				
+92		Aquaculture		growing_season_interception_n	0.75	1.25	1				
+92		Aquaculture		nongrowing_season_interception_a	0	0	0				
+92		Aquaculture		nongrowing_season_interception_b	0	0	0				
+92		Aquaculture		nongrowing_season_interception_n	0.75	1.25	1				
+92		Aquaculture		rz	1.875	3.125	2.5	ft			
+111		OPEN WATER		cn	88	98	98	unitless			
+111		OPEN WATER		growing_season_interception_a	0	0	0				
+111		OPEN WATER		growing_season_interception_b	0	0	0				
+111		OPEN WATER		growing_season_interception_n	0.75	1.25	1				
+111		OPEN WATER		nongrowing_season_interception_a	0	0	0				
+111		OPEN WATER		nongrowing_season_interception_b	0	0	0				
+111		OPEN WATER		nongrowing_season_interception_n	0.75	1.25	1				
+111		OPEN WATER		rz	0	0	0	ft			
+121		Developed, Open Space		cn	61	74	68	unitless			
+121		Developed, Open Space		growing_season_interception_a	0.03	0.05	0.04				
+121		Developed, Open Space		growing_season_interception_b	0	0	0				
+121		Developed, Open Space		growing_season_interception_n	0.75	1.25	1				
+121		Developed, Open Space		nongrowing_season_interception_a	0.01875	0.03125	0.025				
+121		Developed, Open Space		nongrowing_season_interception_b	0	0	0				
+121		Developed, Open Space		nongrowing_season_interception_n	0.75	1.25	1				
+121		Developed, Open Space		rz	2.25	3.75	3	ft			
+122		Developed, Low Intensity		cn	69	84	77	unitless			
+122		Developed, Low Intensity		growing_season_interception_a	0.03	0.05	0.04				
+122		Developed, Low Intensity		growing_season_interception_b	0	0	0				
+122		Developed, Low Intensity		growing_season_interception_n	0.75	1.25	1				
+122		Developed, Low Intensity		nongrowing_season_interception_a	0.01875	0.03125	0.025				
+122		Developed, Low Intensity		nongrowing_season_interception_b	0	0	0				
+122		Developed, Low Intensity		nongrowing_season_interception_n	0.75	1.25	1				
+122		Developed, Low Intensity		rz	2.25	3.75	3	ft			
+123		Developed, Medium Intensity		cn	72	89	81	unitless			
+123		Developed, Medium Intensity		growing_season_interception_a	0.03	0.05	0.04				
+123		Developed, Medium Intensity		growing_season_interception_b	0	0	0				
+123		Developed, Medium Intensity		growing_season_interception_n	0.75	1.25	1				
+123		Developed, Medium Intensity		nongrowing_season_interception_a	0.01875	0.03125	0.025				
+123		Developed, Medium Intensity		nongrowing_season_interception_b	0	0	0				
+123		Developed, Medium Intensity		nongrowing_season_interception_n	0.75	1.25	1				
+123		Developed, Medium Intensity		rz	2.25	3.75	3	ft			
+124		Developed, High Intensity		cn	80	97	89	unitless			
+124		Developed, High Intensity		growing_season_interception_a	0.03	0.05	0.04				
+124		Developed, High Intensity		growing_season_interception_b	0	0	0				
+124		Developed, High Intensity		growing_season_interception_n	0.75	1.25	1				
+124		Developed, High Intensity		nongrowing_season_interception_a	0.01875	0.03125	0.025				
+124		Developed, High Intensity		nongrowing_season_interception_b	0	0	0				
+124		Developed, High Intensity		nongrowing_season_interception_n	0.75	1.25	1				
+124		Developed, High Intensity		rz	2.25	3.75	3	ft			
+131		Barren Land		cn	69	84	77	unitless			
+131		Barren Land		growing_season_interception_a	0	0	0				
+131		Barren Land		growing_season_interception_b	0	0	0				
+131		Barren Land		growing_season_interception_n	0.75	1.25	1				
+131		Barren Land		nongrowing_season_interception_a	0	0	0				
+131		Barren Land		nongrowing_season_interception_b	0	0	0				
+131		Barren Land		nongrowing_season_interception_n	0.75	1.25	1				
+131		Barren Land		rz	1.125	1.875	1.5	ft			
+141		deciduous forest		cn	54	66	60	unitless			undrained
+141		deciduous forest		growing_season_interception_a	0.1125	0.1875	0.15				undrained
+141		deciduous forest		growing_season_interception_b	0	0	0				undrained
+141		deciduous forest		growing_season_interception_n	0.75	1.25	1				undrained
+141		deciduous forest		nongrowing_season_interception_a	0.01875	0.03125	0.025				undrained
+141		deciduous forest		nongrowing_season_interception_b	0	0	0				undrained
+141		deciduous forest		nongrowing_season_interception_n	0.75	1.25	1				undrained
+141		deciduous forest		rz	2.25	3.75	3	ft			undrained
+142		Evergreen forest		cn	44	54	49.4	unitless			undrained
+142		Evergreen forest		growing_season_interception_a	0.15	0.25	0.2				undrained
+142		Evergreen forest		growing_season_interception_b	0	0	0				undrained
+142		Evergreen forest		growing_season_interception_n	0.75	1.25	1				undrained
+142		Evergreen forest		nongrowing_season_interception_a	0.075	0.125	0.1				undrained
+142		Evergreen forest		nongrowing_season_interception_b	0	0	0				undrained
+142		Evergreen forest		nongrowing_season_interception_n	0.75	1.25	1				undrained
+142		Evergreen forest		rz	3	5	4	ft			undrained
+143		Mixed forest		cn	49	60	54.7	unitless			undrained
+143		Mixed forest		growing_season_interception_a	0.1125	0.1875	0.15				undrained
+143		Mixed forest		growing_season_interception_b	0	0	0				undrained
+143		Mixed forest		growing_season_interception_n	0.75	1.25	1				undrained
+143		Mixed forest		nongrowing_season_interception_a	0.01875	0.03125	0.025				undrained
+143		Mixed forest		nongrowing_season_interception_b	0	0	0				undrained
+143		Mixed forest		nongrowing_season_interception_n	0.75	1.25	1				undrained
+143		Mixed forest		rz	3.3675	5.6125	4.49	ft			undrained
+151		Dwarf Scrub		cn	43	52	48	unitless			undrained
+151		Dwarf Scrub		growing_season_interception_a	0.06	0.1	0.08				undrained
+151		Dwarf Scrub		growing_season_interception_b	0	0	0				undrained
+151		Dwarf Scrub		growing_season_interception_n	0.75	1.25	1				undrained
+151		Dwarf Scrub		nongrowing_season_interception_a	0.01875	0.03125	0.025				undrained
+151		Dwarf Scrub		nongrowing_season_interception_b	0	0	0				undrained
+151		Dwarf Scrub		nongrowing_season_interception_n	0.75	1.25	1				undrained
+151		Dwarf Scrub		rz	1.5	2.5	2	ft			undrained
+152		Shrub/Scrub		cn	43	52	48	unitless			undrained
+152		Shrub/Scrub		growing_season_interception_a	0.06	0.1	0.08				undrained
+152		Shrub/Scrub		growing_season_interception_b	0	0	0				undrained
+152		Shrub/Scrub		growing_season_interception_n	0.75	1.25	1				undrained
+152		Shrub/Scrub		nongrowing_season_interception_a	0.01875	0.03125	0.025				undrained
+152		Shrub/Scrub		nongrowing_season_interception_b	0	0	0				undrained
+152		Shrub/Scrub		nongrowing_season_interception_n	0.75	1.25	1				undrained
+152		Shrub/Scrub		rz	1.5	2.5	2	ft			undrained
+171		Grassland/Herbaceous (arid)		cn	44	53	49	unitless			undrained
+171		Grassland/Herbaceous (arid)		growing_season_interception_a	0.0525	0.0875	0.07				undrained
+171		Grassland/Herbaceous (arid)		growing_season_interception_b	0	0	0				undrained
+171		Grassland/Herbaceous (arid)		growing_season_interception_n	0.75	1.25	1				undrained
+171		Grassland/Herbaceous (arid)		nongrowing_season_interception_a	0.0225	0.0375	0.03				undrained
+171		Grassland/Herbaceous (arid)		nongrowing_season_interception_b	0	0	0				undrained
+171		Grassland/Herbaceous (arid)		nongrowing_season_interception_n	0.75	1.25	1				undrained
+171		Grassland/Herbaceous (arid)		rz	1.5	2.5	2	ft			undrained
+176		Grass/Pasture		cn	54	66	60	unitless			undrained
+176		Grass/Pasture		growing_season_interception_a	0.06	0.1	0.08				undrained
+176		Grass/Pasture		growing_season_interception_b	0	0	0				undrained
+176		Grass/Pasture		growing_season_interception_n	0.75	1.25	1				undrained
+176		Grass/Pasture		nongrowing_season_interception_a	0.0225	0.0375	0.03				undrained
+176		Grass/Pasture		nongrowing_season_interception_b	0	0	0				undrained
+176		Grass/Pasture		nongrowing_season_interception_n	0.75	1.25	1				undrained
+176		Grass/Pasture		rz	2.025	3.375	2.7	ft			undrained
+181		Pasture/Hay (fair)		cn	35	42	39	unitless			undrained
+181		Pasture/Hay (fair)		growing_season_interception_a	0.06	0.1	0.08				undrained
+181		Pasture/Hay (fair)		growing_season_interception_b	0	0	0				undrained
+181		Pasture/Hay (fair)		growing_season_interception_n	0.75	1.25	1				undrained
+181		Pasture/Hay (fair)		nongrowing_season_interception_a	0.0225	0.0375	0.03				undrained
+181		Pasture/Hay (fair)		nongrowing_season_interception_b	0	0	0				undrained
+181		Pasture/Hay (fair)		nongrowing_season_interception_n	0.75	1.25	1				undrained
+181		Pasture/Hay (fair)		rz	1.5	2.5	2	ft			undrained
+182		Cultivated Crops (SR+CR poor)		cn	57	70	64	unitless			
+182		Cultivated Crops (SR+CR poor)		growing_season_interception_a	0.06	0.1	0.08				
+182		Cultivated Crops (SR+CR poor)		growing_season_interception_b	0	0	0				
+182		Cultivated Crops (SR+CR poor)		growing_season_interception_n	0.75	1.25	1				
+182		Cultivated Crops (SR+CR poor)		nongrowing_season_interception_a	0	0	0				
+182		Cultivated Crops (SR+CR poor)		nongrowing_season_interception_b	0	0	0				
+182		Cultivated Crops (SR+CR poor)		nongrowing_season_interception_n	0.75	1.25	1				
+182		Cultivated Crops (SR+CR poor)		rz	1.125	1.875	1.5	ft			
+190		Woody wetlands		cn	44	54	49.3	unitless			
+190		Woody wetlands		growing_season_interception_a	0.075	0.125	0.1				
+190		Woody wetlands		growing_season_interception_b	0	0	0				
+190		Woody wetlands		growing_season_interception_n	0.75	1.25	1				
+190		Woody wetlands		nongrowing_season_interception_a	0.01875	0.03125	0.025				
+190		Woody wetlands		nongrowing_season_interception_b	0	0	0				
+190		Woody wetlands		nongrowing_season_interception_n	0.75	1.25	1				
+190		Woody wetlands		rz	2.025	3.375	2.7	ft			
+195		Emergent Herbaceous wetlands		cn	41	50	46	unitless			
+195		Emergent Herbaceous wetlands		growing_season_interception_a	0.06	0.1	0.08				
+195		Emergent Herbaceous wetlands		growing_season_interception_b	0	0	0				
+195		Emergent Herbaceous wetlands		growing_season_interception_n	0.75	1.25	1				
+195		Emergent Herbaceous wetlands		nongrowing_season_interception_a	0	0	0				
+195		Emergent Herbaceous wetlands		nongrowing_season_interception_b	0	0	0				
+195		Emergent Herbaceous wetlands		nongrowing_season_interception_n	0.75	1.25	1				
+195		Emergent Herbaceous wetlands		rz	3.0375	5.0625	4.05	ft			
+204		Pistachios		cn	60	73	67	unitless			
+204		Pistachios		growing_season_interception_a	0.06	0.1	0.08				
+204		Pistachios		growing_season_interception_b	0	0	0				
+204		Pistachios		growing_season_interception_n	0.75	1.25	1				
+204		Pistachios		nongrowing_season_interception_a	0	0	0				
+204		Pistachios		nongrowing_season_interception_b	0	0	0				
+204		Pistachios		nongrowing_season_interception_n	0.75	1.25	1				
+204		Pistachios		rz	1.6875	2.8125	2.25	ft			
+205		Triticale		cn	60	73	67	unitless			
+205		Triticale		growing_season_interception_a	0.06	0.1	0.08				
+205		Triticale		growing_season_interception_b	0	0	0				
+205		Triticale		growing_season_interception_n	0.75	1.25	1				
+205		Triticale		nongrowing_season_interception_a	0	0	0				
+205		Triticale		nongrowing_season_interception_b	0	0	0				
+205		Triticale		nongrowing_season_interception_n	0.75	1.25	1				
+205		Triticale		rz	1.125	1.875	1.5	ft			
+206		Carrots		cn	60	73	67	unitless			
+206		Carrots		growing_season_interception_a	0.06	0.1	0.08				
+206		Carrots		growing_season_interception_b	0	0	0				
+206		Carrots		growing_season_interception_n	0.75	1.25	1				
+206		Carrots		nongrowing_season_interception_a	0	0	0				
+206		Carrots		nongrowing_season_interception_b	0	0	0				
+206		Carrots		nongrowing_season_interception_n	0.75	1.25	1				
+206		Carrots		rz	0.75	1.25	1	ft			
+207		Asparagus		cn	60	73	67	unitless			
+207		Asparagus		growing_season_interception_a	0.0375	0.0625	0.05				
+207		Asparagus		growing_season_interception_b	0	0	0				
+207		Asparagus		growing_season_interception_n	0.75	1.25	1				
+207		Asparagus		nongrowing_season_interception_a	0	0	0				
+207		Asparagus		nongrowing_season_interception_b	0	0	0				
+207		Asparagus		nongrowing_season_interception_n	0.75	1.25	1				
+207		Asparagus		rz	0.75	1.25	1	ft			
+208		Garlic		cn	60	73	67	unitless			
+208		Garlic		growing_season_interception_a	0.0375	0.0625	0.05				
+208		Garlic		growing_season_interception_b	0	0	0				
+208		Garlic		growing_season_interception_n	0.75	1.25	1				
+208		Garlic		nongrowing_season_interception_a	0	0	0				
+208		Garlic		nongrowing_season_interception_b	0	0	0				
+208		Garlic		nongrowing_season_interception_n	0.75	1.25	1				
+208		Garlic		rz	0.75	1.25	1	ft			
+209		Cantaloupes		cn	60	73	67	unitless			
+209		Cantaloupes		growing_season_interception_a	0.0375	0.0625	0.05				
+209		Cantaloupes		growing_season_interception_b	0	0	0				
+209		Cantaloupes		growing_season_interception_n	0.75	1.25	1				
+209		Cantaloupes		nongrowing_season_interception_a	0	0	0				
+209		Cantaloupes		nongrowing_season_interception_b	0	0	0				
+209		Cantaloupes		nongrowing_season_interception_n	0.75	1.25	1				
+209		Cantaloupes		rz	0.75	1.25	1	ft			
+210		Prunes		cn	60	73	67	unitless			
+210		Prunes		growing_season_interception_a	0.0375	0.0625	0.05				
+210		Prunes		growing_season_interception_b	0	0	0				
+210		Prunes		growing_season_interception_n	0.75	1.25	1				
+210		Prunes		nongrowing_season_interception_a	0	0	0				
+210		Prunes		nongrowing_season_interception_b	0	0	0				
+210		Prunes		nongrowing_season_interception_n	0.75	1.25	1				
+210		Prunes		rz	0.75	1.25	1	ft			
+211		Olives		cn	60	73	67	unitless			
+211		Olives		growing_season_interception_a	0.0375	0.0625	0.05				
+211		Olives		growing_season_interception_b	0	0	0				
+211		Olives		growing_season_interception_n	0.75	1.25	1				
+211		Olives		nongrowing_season_interception_a	0	0	0				
+211		Olives		nongrowing_season_interception_b	0	0	0				
+211		Olives		nongrowing_season_interception_n	0.75	1.25	1				
+211		Olives		rz	2.25	3.75	3	ft			
+212		Oranges		cn	60	73	67	unitless			
+212		Oranges		growing_season_interception_a	0.0375	0.0625	0.05				
+212		Oranges		growing_season_interception_b	0	0	0				
+212		Oranges		growing_season_interception_n	0.75	1.25	1				
+212		Oranges		nongrowing_season_interception_a	0	0	0				
+212		Oranges		nongrowing_season_interception_b	0	0	0				
+212		Oranges		nongrowing_season_interception_n	0.75	1.25	1				
+212		Oranges		rz	1.6875	2.8125	2.25	ft			
+213		Honeydew Melons		cn	60	73	67	unitless			
+213		Honeydew Melons		growing_season_interception_a	0.0375	0.0625	0.05				
+213		Honeydew Melons		growing_season_interception_b	0	0	0				
+213		Honeydew Melons		growing_season_interception_n	0.75	1.25	1				
+213		Honeydew Melons		nongrowing_season_interception_a	0	0	0				
+213		Honeydew Melons		nongrowing_season_interception_b	0	0	0				
+213		Honeydew Melons		nongrowing_season_interception_n	0.75	1.25	1				
+213		Honeydew Melons		rz	0.75	1.25	1	ft			
+214		Broccoli		cn	60	73	67	unitless			
+214		Broccoli		growing_season_interception_a	0.0375	0.0625	0.05				
+214		Broccoli		growing_season_interception_b	0	0	0				
+214		Broccoli		growing_season_interception_n	0.75	1.25	1				
+214		Broccoli		nongrowing_season_interception_a	0	0	0				
+214		Broccoli		nongrowing_season_interception_b	0	0	0				
+214		Broccoli		nongrowing_season_interception_n	0.75	1.25	1				
+214		Broccoli		rz	0.75	1.25	1	ft			
+216		Peppers		cn	60	73	67	unitless			
+216		Peppers		growing_season_interception_a	0.0375	0.0625	0.05				
+216		Peppers		growing_season_interception_b	0	0	0				
+216		Peppers		growing_season_interception_n	0.75	1.25	1				
+216		Peppers		nongrowing_season_interception_a	0	0	0				
+216		Peppers		nongrowing_season_interception_b	0	0	0				
+216		Peppers		nongrowing_season_interception_n	0.75	1.25	1				
+216		Peppers		rz	0.75	1.25	1	ft			
+217		Pomegranates		cn	60	73	67	unitless			
+217		Pomegranates		growing_season_interception_a	0.0375	0.0625	0.05				
+217		Pomegranates		growing_season_interception_b	0	0	0				
+217		Pomegranates		growing_season_interception_n	0.75	1.25	1				
+217		Pomegranates		nongrowing_season_interception_a	0	0	0				
+217		Pomegranates		nongrowing_season_interception_b	0	0	0				
+217		Pomegranates		nongrowing_season_interception_n	0.75	1.25	1				
+217		Pomegranates		rz	1.6875	2.8125	2.25	ft			
+218		Nectarines		cn	60	73	67	unitless			
+218		Nectarines		growing_season_interception_a	0.0375	0.0625	0.05				
+218		Nectarines		growing_season_interception_b	0	0	0				
+218		Nectarines		growing_season_interception_n	0.75	1.25	1				
+218		Nectarines		nongrowing_season_interception_a	0	0	0				
+218		Nectarines		nongrowing_season_interception_b	0	0	0				
+218		Nectarines		nongrowing_season_interception_n	0.75	1.25	1				
+218		Nectarines		rz	1.6875	2.8125	2.25	ft			
+219		Greens		cn	60	73	67	unitless			
+219		Greens		growing_season_interception_a	0.0375	0.0625	0.05				
+219		Greens		growing_season_interception_b	0	0	0				
+219		Greens		growing_season_interception_n	0.75	1.25	1				
+219		Greens		nongrowing_season_interception_a	0	0	0				
+219		Greens		nongrowing_season_interception_b	0	0	0				
+219		Greens		nongrowing_season_interception_n	0.75	1.25	1				
+219		Greens		rz	0.75	1.25	1	ft			
+220		Plums		cn	60	73	67	unitless			
+220		Plums		growing_season_interception_a	0.0375	0.0625	0.05				
+220		Plums		growing_season_interception_b	0	0	0				
+220		Plums		growing_season_interception_n	0.75	1.25	1				
+220		Plums		nongrowing_season_interception_a	0	0	0				
+220		Plums		nongrowing_season_interception_b	0	0	0				
+220		Plums		nongrowing_season_interception_n	0.75	1.25	1				
+220		Plums		rz	1.6875	2.8125	2.25	ft			
+221		Strawberries		cn	60	73	67	unitless			
+221		Strawberries		growing_season_interception_a	0.0375	0.0625	0.05				
+221		Strawberries		growing_season_interception_b	0	0	0				
+221		Strawberries		growing_season_interception_n	0.75	1.25	1				
+221		Strawberries		nongrowing_season_interception_a	0	0	0				
+221		Strawberries		nongrowing_season_interception_b	0	0	0				
+221		Strawberries		nongrowing_season_interception_n	0.75	1.25	1				
+221		Strawberries		rz	0.75	1.25	1	ft			
+222		Squash		cn	60	73	67	unitless			
+222		Squash		growing_season_interception_a	0.0375	0.0625	0.05				
+222		Squash		growing_season_interception_b	0	0	0				
+222		Squash		growing_season_interception_n	0.75	1.25	1				
+222		Squash		nongrowing_season_interception_a	0	0	0				
+222		Squash		nongrowing_season_interception_b	0	0	0				
+222		Squash		nongrowing_season_interception_n	0.75	1.25	1				
+222		Squash		rz	0.75	1.25	1	ft			
+223		Apricots		cn	60	73	67	unitless			
+223		Apricots		growing_season_interception_a	0.0375	0.0625	0.05				
+223		Apricots		growing_season_interception_b	0	0	0				
+223		Apricots		growing_season_interception_n	0.75	1.25	1				
+223		Apricots		nongrowing_season_interception_a	0	0	0				
+223		Apricots		nongrowing_season_interception_b	0	0	0				
+223		Apricots		nongrowing_season_interception_n	0.75	1.25	1				
+223		Apricots		rz	1.6875	2.8125	2.25	ft			
+224		Vetch		cn	60	73	67	unitless			
+224		Vetch		growing_season_interception_a	0.0375	0.0625	0.05				
+224		Vetch		growing_season_interception_b	0	0	0				
+224		Vetch		growing_season_interception_n	0.75	1.25	1				
+224		Vetch		nongrowing_season_interception_a	0	0	0				
+224		Vetch		nongrowing_season_interception_b	0	0	0				
+224		Vetch		nongrowing_season_interception_n	0.75	1.25	1				
+224		Vetch		rz	0.75	1.25	1	ft			
+225		Dbl Crop WinWht/Corn		cn	60	73	67	unitless			
+225		Dbl Crop WinWht/Corn		growing_season_interception_a	0.06	0.1	0.08				
+225		Dbl Crop WinWht/Corn		growing_season_interception_b	0	0	0				
+225		Dbl Crop WinWht/Corn		growing_season_interception_n	0.75	1.25	1				
+225		Dbl Crop WinWht/Corn		nongrowing_season_interception_a	0	0	0				
+225		Dbl Crop WinWht/Corn		nongrowing_season_interception_b	0	0	0				
+225		Dbl Crop WinWht/Corn		nongrowing_season_interception_n	0.75	1.25	1				
+225		Dbl Crop WinWht/Corn		rz	0.75	1.25	1	ft			
+226		Dbl Crop Oats/Corn		cn	60	73	67	unitless			
+226		Dbl Crop Oats/Corn		growing_season_interception_a	0.06	0.1	0.08				
+226		Dbl Crop Oats/Corn		growing_season_interception_b	0	0	0				
+226		Dbl Crop Oats/Corn		growing_season_interception_n	0.75	1.25	1				
+226		Dbl Crop Oats/Corn		nongrowing_season_interception_a	0	0	0				
+226		Dbl Crop Oats/Corn		nongrowing_season_interception_b	0	0	0				
+226		Dbl Crop Oats/Corn		nongrowing_season_interception_n	0.75	1.25	1				
+226		Dbl Crop Oats/Corn		rz	0.75	1.25	1	ft			
+227		Lettuce		cn	60	73	67	unitless			
+227		Lettuce		growing_season_interception_a	0.0375	0.0625	0.05				
+227		Lettuce		growing_season_interception_b	0	0	0				
+227		Lettuce		growing_season_interception_n	0.75	1.25	1				
+227		Lettuce		nongrowing_season_interception_a	0	0	0				
+227		Lettuce		nongrowing_season_interception_b	0	0	0				
+227		Lettuce		nongrowing_season_interception_n	0.75	1.25	1				
+227		Lettuce		rz	0.75	1.25	1	ft			
+229		Pumpkins		cn	60	73	67	unitless			
+229		Pumpkins		growing_season_interception_a	0.0375	0.0625	0.05				
+229		Pumpkins		growing_season_interception_b	0	0	0				
+229		Pumpkins		growing_season_interception_n	0.75	1.25	1				
+229		Pumpkins		nongrowing_season_interception_a	0	0	0				
+229		Pumpkins		nongrowing_season_interception_b	0	0	0				
+229		Pumpkins		nongrowing_season_interception_n	0.75	1.25	1				
+229		Pumpkins		rz	0.75	1.25	1	ft			
+230		Dbl Crop Lettuce/Durum Wht		cn	60	73	67	unitless			
+230		Dbl Crop Lettuce/Durum Wht		growing_season_interception_a	0.045	0.075	0.06				
+230		Dbl Crop Lettuce/Durum Wht		growing_season_interception_b	0	0	0				
+230		Dbl Crop Lettuce/Durum Wht		growing_season_interception_n	0.75	1.25	1				
+230		Dbl Crop Lettuce/Durum Wht		nongrowing_season_interception_a	0	0	0				
+230		Dbl Crop Lettuce/Durum Wht		nongrowing_season_interception_b	0	0	0				
+230		Dbl Crop Lettuce/Durum Wht		nongrowing_season_interception_n	0.75	1.25	1				
+230		Dbl Crop Lettuce/Durum Wht		rz	0.75	1.25	1	ft			
+231		Dbl Crop Lettuce/Cantaloupe		cn	60	73	67	unitless			
+231		Dbl Crop Lettuce/Cantaloupe		growing_season_interception_a	0.045	0.075	0.06				
+231		Dbl Crop Lettuce/Cantaloupe		growing_season_interception_b	0	0	0				
+231		Dbl Crop Lettuce/Cantaloupe		growing_season_interception_n	0.75	1.25	1				
+231		Dbl Crop Lettuce/Cantaloupe		nongrowing_season_interception_a	0	0	0				
+231		Dbl Crop Lettuce/Cantaloupe		nongrowing_season_interception_b	0	0	0				
+231		Dbl Crop Lettuce/Cantaloupe		nongrowing_season_interception_n	0.75	1.25	1				
+231		Dbl Crop Lettuce/Cantaloupe		rz	0.75	1.25	1	ft			
+232		Dbl Crop Lettuce/Cotton		cn	60	73	67	unitless			
+232		Dbl Crop Lettuce/Cotton		growing_season_interception_a	0.045	0.075	0.06				
+232		Dbl Crop Lettuce/Cotton		growing_season_interception_b	0	0	0				
+232		Dbl Crop Lettuce/Cotton		growing_season_interception_n	0.75	1.25	1				
+232		Dbl Crop Lettuce/Cotton		nongrowing_season_interception_a	0	0	0				
+232		Dbl Crop Lettuce/Cotton		nongrowing_season_interception_b	0	0	0				
+232		Dbl Crop Lettuce/Cotton		nongrowing_season_interception_n	0.75	1.25	1				
+232		Dbl Crop Lettuce/Cotton		rz	0.75	1.25	1	ft			
+233		Dbl Crop Lettuce/Barley		cn	60	73	67	unitless			
+233		Dbl Crop Lettuce/Barley		growing_season_interception_a	0.045	0.075	0.06				
+233		Dbl Crop Lettuce/Barley		growing_season_interception_b	0	0	0				
+233		Dbl Crop Lettuce/Barley		growing_season_interception_n	0.75	1.25	1				
+233		Dbl Crop Lettuce/Barley		nongrowing_season_interception_a	0	0	0				
+233		Dbl Crop Lettuce/Barley		nongrowing_season_interception_b	0	0	0				
+233		Dbl Crop Lettuce/Barley		nongrowing_season_interception_n	0.75	1.25	1				
+233		Dbl Crop Lettuce/Barley		rz	0.75	1.25	1	ft			
+234		Dbl Crop Durum Wht/Sorghum		cn	60	73	67	unitless			
+234		Dbl Crop Durum Wht/Sorghum		growing_season_interception_a	0.045	0.075	0.06				
+234		Dbl Crop Durum Wht/Sorghum		growing_season_interception_b	0	0	0				
+234		Dbl Crop Durum Wht/Sorghum		growing_season_interception_n	0.75	1.25	1				
+234		Dbl Crop Durum Wht/Sorghum		nongrowing_season_interception_a	0	0	0				
+234		Dbl Crop Durum Wht/Sorghum		nongrowing_season_interception_b	0	0	0				
+234		Dbl Crop Durum Wht/Sorghum		nongrowing_season_interception_n	0.75	1.25	1				
+234		Dbl Crop Durum Wht/Sorghum		rz	0.75	1.25	1	ft			
+235		Dbl Crop Barley/Sorghum		cn	60	73	67	unitless			
+235		Dbl Crop Barley/Sorghum		growing_season_interception_a	0.045	0.075	0.06				
+235		Dbl Crop Barley/Sorghum		growing_season_interception_b	0	0	0				
+235		Dbl Crop Barley/Sorghum		growing_season_interception_n	0.75	1.25	1				
+235		Dbl Crop Barley/Sorghum		nongrowing_season_interception_a	0	0	0				
+235		Dbl Crop Barley/Sorghum		nongrowing_season_interception_b	0	0	0				
+235		Dbl Crop Barley/Sorghum		nongrowing_season_interception_n	0.75	1.25	1				
+235		Dbl Crop Barley/Sorghum		rz	0.75	1.25	1	ft			
+236		Dbl Crop WinWht/Sorghum		cn	60	73	67	unitless			
+236		Dbl Crop WinWht/Sorghum		growing_season_interception_a	0.045	0.075	0.06				
+236		Dbl Crop WinWht/Sorghum		growing_season_interception_b	0	0	0				
+236		Dbl Crop WinWht/Sorghum		growing_season_interception_n	0.75	1.25	1				
+236		Dbl Crop WinWht/Sorghum		nongrowing_season_interception_a	0	0	0				
+236		Dbl Crop WinWht/Sorghum		nongrowing_season_interception_b	0	0	0				
+236		Dbl Crop WinWht/Sorghum		nongrowing_season_interception_n	0.75	1.25	1				
+236		Dbl Crop WinWht/Sorghum		rz	0.75	1.25	1	ft			
+237		Dbl Crop Barley/Corn		cn	60	73	67	unitless			
+237		Dbl Crop Barley/Corn		growing_season_interception_a	0.045	0.075	0.06				
+237		Dbl Crop Barley/Corn		growing_season_interception_b	0	0	0				
+237		Dbl Crop Barley/Corn		growing_season_interception_n	0.75	1.25	1				
+237		Dbl Crop Barley/Corn		nongrowing_season_interception_a	0	0	0				
+237		Dbl Crop Barley/Corn		nongrowing_season_interception_b	0	0	0				
+237		Dbl Crop Barley/Corn		nongrowing_season_interception_n	0.75	1.25	1				
+237		Dbl Crop Barley/Corn		rz	0.75	1.25	1	ft			
+238		Dbl Crop WinWht/Cotton		cn	60	73	67	unitless			
+238		Dbl Crop WinWht/Cotton		growing_season_interception_a	0.045	0.075	0.06				
+238		Dbl Crop WinWht/Cotton		growing_season_interception_b	0	0	0				
+238		Dbl Crop WinWht/Cotton		growing_season_interception_n	0.75	1.25	1				
+238		Dbl Crop WinWht/Cotton		nongrowing_season_interception_a	0	0	0				
+238		Dbl Crop WinWht/Cotton		nongrowing_season_interception_b	0	0	0				
+238		Dbl Crop WinWht/Cotton		nongrowing_season_interception_n	0.75	1.25	1				
+238		Dbl Crop WinWht/Cotton		rz	0.75	1.25	1	ft			
+239		Dbl Crop Soybeans/Cotton		cn	60	73	67	unitless			
+239		Dbl Crop Soybeans/Cotton		growing_season_interception_a	0.045	0.075	0.06				
+239		Dbl Crop Soybeans/Cotton		growing_season_interception_b	0	0	0				
+239		Dbl Crop Soybeans/Cotton		growing_season_interception_n	0.75	1.25	1				
+239		Dbl Crop Soybeans/Cotton		nongrowing_season_interception_a	0	0	0				
+239		Dbl Crop Soybeans/Cotton		nongrowing_season_interception_b	0	0	0				
+239		Dbl Crop Soybeans/Cotton		nongrowing_season_interception_n	0.75	1.25	1				
+239		Dbl Crop Soybeans/Cotton		rz	0.75	1.25	1	ft			
+240		Dbl Crop Soybeans/Oats		cn	60	73	67	unitless			
+240		Dbl Crop Soybeans/Oats		growing_season_interception_a	0.045	0.075	0.06				
+240		Dbl Crop Soybeans/Oats		growing_season_interception_b	0	0	0				
+240		Dbl Crop Soybeans/Oats		growing_season_interception_n	0.75	1.25	1				
+240		Dbl Crop Soybeans/Oats		nongrowing_season_interception_a	0	0	0				
+240		Dbl Crop Soybeans/Oats		nongrowing_season_interception_b	0	0	0				
+240		Dbl Crop Soybeans/Oats		nongrowing_season_interception_n	0.75	1.25	1				
+240		Dbl Crop Soybeans/Oats		rz	0.75	1.25	1	ft			
+241		Dbl Crop Corn/Soybeans		cn	60	73	67	unitless			
+241		Dbl Crop Corn/Soybeans		growing_season_interception_a	0.045	0.075	0.06				
+241		Dbl Crop Corn/Soybeans		growing_season_interception_b	0	0	0				
+241		Dbl Crop Corn/Soybeans		growing_season_interception_n	0.75	1.25	1				
+241		Dbl Crop Corn/Soybeans		nongrowing_season_interception_a	0	0	0				
+241		Dbl Crop Corn/Soybeans		nongrowing_season_interception_b	0	0	0				
+241		Dbl Crop Corn/Soybeans		nongrowing_season_interception_n	0.75	1.25	1				
+241		Dbl Crop Corn/Soybeans		rz	0.75	1.25	1	ft			
+242		Blueberries		cn	60	73	67	unitless			
+242		Blueberries		growing_season_interception_a	0.045	0.075	0.06				
+242		Blueberries		growing_season_interception_b	0	0	0				
+242		Blueberries		growing_season_interception_n	0.75	1.25	1				
+242		Blueberries		nongrowing_season_interception_a	0	0	0				
+242		Blueberries		nongrowing_season_interception_b	0	0	0				
+242		Blueberries		nongrowing_season_interception_n	0.75	1.25	1				
+242		Blueberries		rz	0.75	1.25	1	ft			
+243		Cabbage		cn	60	73	67	unitless			
+243		Cabbage		growing_season_interception_a	0.0375	0.0625	0.05				
+243		Cabbage		growing_season_interception_b	0	0	0				
+243		Cabbage		growing_season_interception_n	0.75	1.25	1				
+243		Cabbage		nongrowing_season_interception_a	0	0	0				
+243		Cabbage		nongrowing_season_interception_b	0	0	0				
+243		Cabbage		nongrowing_season_interception_n	0.75	1.25	1				
+243		Cabbage		rz	0.75	1.25	1	ft			
+244		Cauliflower		cn	60	73	67	unitless			
+244		Cauliflower		growing_season_interception_a	0.0375	0.0625	0.05				
+244		Cauliflower		growing_season_interception_b	0	0	0				
+244		Cauliflower		growing_season_interception_n	0.75	1.25	1				
+244		Cauliflower		nongrowing_season_interception_a	0	0	0				
+244		Cauliflower		nongrowing_season_interception_b	0	0	0				
+244		Cauliflower		nongrowing_season_interception_n	0.75	1.25	1				
+244		Cauliflower		rz	0.75	1.25	1	ft			
+245		Celery		cn	60	73	67	unitless			
+245		Celery		growing_season_interception_a	0.0375	0.0625	0.05				
+245		Celery		growing_season_interception_b	0	0	0				
+245		Celery		growing_season_interception_n	0.75	1.25	1				
+245		Celery		nongrowing_season_interception_a	0	0	0				
+245		Celery		nongrowing_season_interception_b	0	0	0				
+245		Celery		nongrowing_season_interception_n	0.75	1.25	1				
+245		Celery		rz	0.75	1.25	1	ft			
+246		Radishes		cn	60	73	67	unitless			
+246		Radishes		growing_season_interception_a	0.0375	0.0625	0.05				
+246		Radishes		growing_season_interception_b	0	0	0				
+246		Radishes		growing_season_interception_n	0.75	1.25	1				
+246		Radishes		nongrowing_season_interception_a	0	0	0				
+246		Radishes		nongrowing_season_interception_b	0	0	0				
+246		Radishes		nongrowing_season_interception_n	0.75	1.25	1				
+246		Radishes		rz	0.75	1.25	1	ft			
+247		Turnips		cn	60	73	67	unitless			
+247		Turnips		growing_season_interception_a	0.0375	0.0625	0.05				
+247		Turnips		growing_season_interception_b	0	0	0				
+247		Turnips		growing_season_interception_n	0.75	1.25	1				
+247		Turnips		nongrowing_season_interception_a	0	0	0				
+247		Turnips		nongrowing_season_interception_b	0	0	0				
+247		Turnips		nongrowing_season_interception_n	0.75	1.25	1				
+247		Turnips		rz	0.75	1.25	1	ft			
+248		Eggplants		cn	60	73	67	unitless			
+248		Eggplants		growing_season_interception_a	0.0375	0.0625	0.05				
+248		Eggplants		growing_season_interception_b	0	0	0				
+248		Eggplants		growing_season_interception_n	0.75	1.25	1				
+248		Eggplants		nongrowing_season_interception_a	0	0	0				
+248		Eggplants		nongrowing_season_interception_b	0	0	0				
+248		Eggplants		nongrowing_season_interception_n	0.75	1.25	1				
+248		Eggplants		rz	0.75	1.25	1	ft			
+249		Gourds		cn	60	73	67	unitless			
+249		Gourds		growing_season_interception_a	0.0375	0.0625	0.05				
+249		Gourds		growing_season_interception_b	0	0	0				
+249		Gourds		growing_season_interception_n	0.75	1.25	1				
+249		Gourds		nongrowing_season_interception_a	0	0	0				
+249		Gourds		nongrowing_season_interception_b	0	0	0				
+249		Gourds		nongrowing_season_interception_n	0.75	1.25	1				
+249		Gourds		rz	0.75	1.25	1	ft			
+250		Cranberries		cn	60	73	67	unitless			
+250		Cranberries		growing_season_interception_a	0.0375	0.0625	0.05				
+250		Cranberries		growing_season_interception_b	0	0	0				
+250		Cranberries		growing_season_interception_n	0.75	1.25	1				
+250		Cranberries		nongrowing_season_interception_a	0	0	0				
+250		Cranberries		nongrowing_season_interception_b	0	0	0				
+250		Cranberries		nongrowing_season_interception_n	0.75	1.25	1				
+250		Cranberries		rz	0.75	1.25	1	ft			
+254		Dbl Crop Barley/Soybeans		cn	60	73	67	unitless			
+254		Dbl Crop Barley/Soybeans		growing_season_interception_a	0.045	0.075	0.06				
+254		Dbl Crop Barley/Soybeans		growing_season_interception_b	0	0	0				
+254		Dbl Crop Barley/Soybeans		growing_season_interception_n	0.75	1.25	1				
+254		Dbl Crop Barley/Soybeans		nongrowing_season_interception_a	0	0	0				
+254		Dbl Crop Barley/Soybeans		nongrowing_season_interception_b	0	0	0				
+254		Dbl Crop Barley/Soybeans		nongrowing_season_interception_n	0.75	1.25	1				
+254		Dbl Crop Barley/Soybeans		rz	0.75	1.25	1	ft			
