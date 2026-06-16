@@ -1,0 +1,22 @@
+lu_code	description	group	column	parlbnd	parubnd	parval1	units	notes	ref	drained_condition
+		smgrain	application_amount	0.38	0.63	0.5				
+		smgrain	depletion_fraction	0.38	0.75	0.5				
+		smgrain	first_day_of_growing_season	82.5	162.5	130.0				
+		smgrain	fraction_irrigation_from_gw	0.75	1.25	1.0				
+		smgrain	gdd_base	37.5	62.5	50.0				
+		smgrain	gdd_max	97.5	162.5	130.0				
+		smgrain	irrigation_application_efficiency	0.75	1.25	1.0				
+		smgrain	kcb_end	0.11	0.38	0.3				
+		smgrain	kcb_ini	0.11	0.19	0.15				
+		smgrain	kcb_mid	0.75	1.38	1.0				
+		smgrain	kcb_min	0.08	0.13	0.1				
+		smgrain	l_dev	15.0	37.0	30.0				
+		smgrain	l_fallow	0.0	1.0	1.0				
+		smgrain	l_ini	15.0	25.0	20.0				
+		smgrain	l_late	15.0	36.0	20.0				
+		smgrain	l_mid	36.0	100.0	80.0				
+		smgrain	last_day_of_growing_season	172.5	350.0	280.0				
+		smgrain	mad	0.38	0.75	0.5				
+		smgrain	mean_plant_height	1.88	4.38	2.5				
+		smgrain	minimum_fraction_vegetative_cover	0.0	0.0	0.0				
+		smgrain	planting_date	82.5	162.5	130.0				

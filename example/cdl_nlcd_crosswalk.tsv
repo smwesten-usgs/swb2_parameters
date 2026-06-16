@@ -1,0 +1,128 @@
+lu_cdl	lu_nlcd	cdl_description	nlcd_description
+1	82	Corn	Cultivated Crops
+2	82	Cotton	Cultivated Crops
+3	82	Rice	Cultivated Crops
+4	82	Sorghum	Cultivated Crops
+5	82	Soybeans	Cultivated Crops
+6	82	Sunflower	Cultivated Crops
+10	82	Peanuts	Cultivated Crops
+11	82	Tobacco	Cultivated Crops
+12	82	Sweet Corn	Cultivated Crops
+13	82	Pop or Orn Corn	Cultivated Crops
+14	82	Mint	Cultivated Crops
+21	82	Barley	Cultivated Crops
+22	82	Durham Wheat	Cultivated Crops
+23	82	Spring Wheat	Cultivated Crops
+24	82	Winter Wheat	Cultivated Crops
+25	82	Other Small Grains	Cultivated Crops
+26	82	Dbl Crop WinWht/Soybeans	Cultivated Crops
+27	82	Rye	Cultivated Crops
+28	82	Oats	Cultivated Crops
+29	82	Millet	Cultivated Crops
+30	82	Spelt	Cultivated Crops
+31	82	Canola	Cultivated Crops
+32	82	Flaxseed	Cultivated Crops
+33	82	Safflower	Cultivated Crops
+34	82	Rape Seed	Cultivated Crops
+35	82	Mustard	Cultivated Crops
+36	81	Alfalfa	Pasture/Hay
+37	81	Other Hay/Non Alfalfa	Pasture/Hay
+38	82	Camelina	Cultivated Crops
+39	82	Buckwheat	Cultivated Crops
+41	82	Sugarbeets	Cultivated Crops
+42	82	Snap beans	Cultivated Crops
+43	82	Potatoes	Cultivated Crops
+44	82	Other Crops	Cultivated Crops
+45	82	Sugarcane	Cultivated Crops
+46	82	Sweet Potatoes	Cultivated Crops
+47	82	Misc Vegs and Fruits	Cultivated Crops
+48	82	Watermelons	Cultivated Crops
+49	82	Onions	Cultivated Crops
+50	82	Cucumbers	Cultivated Crops
+51	82	Chick Peas	Cultivated Crops
+52	82	Lentils	Cultivated Crops
+53	82	Peas	Cultivated Crops
+54	82	Tomatoes	Cultivated Crops
+55	82	Caneberries	Cultivated Crops
+56	82	Hops	Cultivated Crops
+57	82	Herbs	Cultivated Crops
+58	81	Clover/Wildflowers	Pasture/Hay
+59	81	Sod/Grass Seed	Pasture/Hay
+60	81	Switchgrass	Pasture/Hay
+61	82	Fallow / Idle	Cultivated Crops
+66	82	Cherries	Cultivated Crops
+67	82	Peaches	Cultivated Crops
+68	82	Apples	Cultivated Crops
+69	82	Grapes	Cultivated Crops
+70	82	Christmas Trees	Cultivated Crops
+71	82	Other Tree Crops	Cultivated Crops
+72	82	Citrus	Cultivated Crops
+74	82	Pecans	Cultivated Crops
+75	82	Almonds	Cultivated Crops
+76	82	Walnuts	Cultivated Crops
+77	82	Pears	Cultivated Crops
+87	95	wetland	Emergent Herbaceous Wetlands
+92	11	Aquaculture	Open Water
+111	11	OPEN WATER	Open Water
+121	21	Developed, Open Space	Developed, Open Space
+122	22	Developed, Low Intensity	Developed, Low Intensity
+123	23	Developed, Medium Intensity	Developed, Medium Intensity
+124	24	Developed, High Intensity	Developed, High Intensity
+131	31	Barren Land	Barren Land
+141	41	deciduous forest	Deciduous Forest
+142	42	Evergreen forest	Evergreen Forest
+143	43	Mixed forest	Mixed Forest
+151	52	Dwarf Scrub	Shrub/Scrub
+152	52	Shrub/Scrub	Shrub/Scrub
+171	71	Grassland/Herbaceous (arid)	Grassland/Herbaceous
+176	81	Grass/Pasture	Pasture/Hay
+181	81	Pasture/Hay (fair)	Pasture/Hay
+182	82	Cultivated Crops (SR+CR poor)	Cultivated Crops
+190	90	Woody wetlands	Woody Wetlands
+195	95	Emergent Herbaceous wetlands	Emergent Herbaceous Wetlands
+204	82	Pistachios	Cultivated Crops
+205	82	Triticale	Cultivated Crops
+206	82	Carrots	Cultivated Crops
+207	82	Asparagus	Cultivated Crops
+208	82	Garlic	Cultivated Crops
+209	82	Cantaloupes	Cultivated Crops
+210	82	Prunes	Cultivated Crops
+211	82	Olives	Cultivated Crops
+212	82	Oranges	Cultivated Crops
+213	82	Honeydew Melons	Cultivated Crops
+214	82	Broccoli	Cultivated Crops
+216	82	Peppers	Cultivated Crops
+217	82	Pomegranates	Cultivated Crops
+218	82	Nectarines	Cultivated Crops
+219	82	Greens	Cultivated Crops
+220	82	Plums	Cultivated Crops
+221	82	Strawberries	Cultivated Crops
+222	82	Squash	Cultivated Crops
+223	82	Apricots	Cultivated Crops
+224	81	Vetch	Pasture/Hay
+225	82	Dbl Crop WinWht/Corn	Cultivated Crops
+226	82	Dbl Crop Oats/Corn	Cultivated Crops
+227	82	Lettuce	Cultivated Crops
+229	82	Pumpkins	Cultivated Crops
+230	82	Dbl Crop Lettuce/Durum Wht	Cultivated Crops
+231	82	Dbl Crop Lettuce/Cantaloupe	Cultivated Crops
+232	82	Dbl Crop Lettuce/Cotton	Cultivated Crops
+233	82	Dbl Crop Lettuce/Barley	Cultivated Crops
+234	82	Dbl Crop Durum Wht/Sorghum	Cultivated Crops
+235	82	Dbl Crop Barley/Sorghum	Cultivated Crops
+236	82	Dbl Crop WinWht/Sorghum	Cultivated Crops
+237	82	Dbl Crop Barley/Corn	Cultivated Crops
+238	82	Dbl Crop WinWht/Cotton	Cultivated Crops
+239	82	Dbl Crop Soybeans/Cotton	Cultivated Crops
+240	82	Dbl Crop Soybeans/Oats	Cultivated Crops
+241	82	Dbl Crop Corn/Soybeans	Cultivated Crops
+242	82	Blueberries	Cultivated Crops
+243	82	Cabbage	Cultivated Crops
+244	82	Cauliflower	Cultivated Crops
+245	82	Celery	Cultivated Crops
+246	82	Radishes	Cultivated Crops
+247	82	Turnips	Cultivated Crops
+248	82	Eggplants	Cultivated Crops
+249	82	Gourds	Cultivated Crops
+250	82	Cranberries	Cultivated Crops
+254	82	Dbl Crop Barley/Soybeans	Cultivated Crops

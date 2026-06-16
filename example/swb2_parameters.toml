@@ -1,0 +1,36 @@
+[long_schema]
+hsg_count = 7
+
+[groups.smgrain]
+codes = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+
+[groups.smveg]
+codes = [42, 44, 47, 49, 50, 51, 52, 53, 54, 55, 56, 57, 207, 208, 214, 216, 219, 243, 244, 245, 248, 249]
+
+[tables.lu_lookup]
+families = ["cn", "rz"]
+singletons = [
+  "max_net_infil_1", "max_net_infil_2", "max_net_infil_3",
+  "max_net_infil_4", "max_net_infil_5", "max_net_infil_6", "max_net_infil_7",
+  "growing_season_interception_a",
+  "growing_season_interception_b",
+  "growing_season_interception_n",
+  "nongrowing_season_interception_a",
+  "nongrowing_season_interception_b",
+  "nongrowing_season_interception_n",
+]
+
+[tables.irr_lookup]
+families = []
+singletons = [
+  "mean_plant_height",
+  "kcb_ini", "kcb_mid", "kcb_end", "kcb_min",
+  "first_day_of_growing_season", "last_day_of_growing_season",
+  "planting_date", "l_ini", "l_dev", "l_mid", "l_late", "l_fallow",
+  "rew_1", "rew_2", "rew_3", "rew_4", "rew_5", "rew_6", "rew_7",
+  "tew_1", "tew_2", "tew_3", "tew_4", "tew_5", "tew_6", "tew_7",
+  "depletion_fraction",
+  "irrigation_start", "irrigation_end",
+  "application_amount", "fraction_irrigation_from_gw",
+  "application_scheme", "irrigation_application_efficiency",
+]

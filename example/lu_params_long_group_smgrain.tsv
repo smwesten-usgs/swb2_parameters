@@ -1,0 +1,10 @@
+lu_code	description	group	column	parlbnd	parubnd	parval1	units	notes	ref	drained_condition
+		smgrain	cn	49.0	60.0	55.2	unitless			
+		smgrain	growing_season_interception_a	0.06	0.1	0.08				
+		smgrain	growing_season_interception_b	0.0	0.0	0.0				
+		smgrain	growing_season_interception_n	0.75	1.25	1.0				
+		smgrain	max_net_infil	2.63	4.38	3.5	in/day			
+		smgrain	nongrowing_season_interception_a	0.0	0.0	0.0				
+		smgrain	nongrowing_season_interception_b	0.0	0.0	0.0				
+		smgrain	nongrowing_season_interception_n	0.75	1.25	1.0				
+		smgrain	rz	0.93	1.55	1.24	ft			

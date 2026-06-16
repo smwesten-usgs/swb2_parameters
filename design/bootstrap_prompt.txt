@@ -1,0 +1,114 @@
+You are assisting on the swb2_parameters repo. Follow these rules and context.
+
+GOALS
+- Keep the human-edited LONG table as the single source of truth; generate WIDE tables for SWB2 runs.
+- Provide a simple REVERSE mode to bootstrap LONG tables from WIDE tables (no auto-remapping to CDL/NLCD).
+- Make group-level “templates” (ALL or named groups) materialize deterministically into per-code rows before validation.
+
+DATA CONTRACTS
+- LONG columns (tab-delimited TSV): lu_cdl, lu_nlcd, description, group, column,
+  parlbnd, parubnd, parval1, units, notes, ref, drained_condition, fixed_parval1, num_decimals. (canonical)
+- Duplicate policy: fail on duplicate (lu_cdl, lu_nlcd, column).
+- Modes per row:
+  • FIXED mode (fixed_parval1 non-empty): bounds and rounding are bypassed for singletons; families (cn, rz, max_net_infil) in FIXED mode are NOT supported and must fail.
+  • BOUNDED mode (else): require parlbnd & parubnd (numeric; parlbnd ≤ parubnd), and parval1 must be numeric and within [parlbnd, parubnd].
+- Rounding:
+  • Families in BOUNDED mode: defaults are cn → integer (0 decimals), rz → 2 decimals, max_net_infil → 2 decimals.
+  • num_decimals (integer ≥ 0) overrides the default rounding for BOUNDED rows:
+      – Families: use num_decimals instead of defaults.
+      – Singletons: round to num_decimals if provided; else no rounding.
+- Units (US Imperial): interception=inches, root_zone=feet, max_net_infil=in/day.
+- Families in LONG: cn, rz, max_net_infil (A-soil value only); singletons pass through by name in WIDE when selected.
+
+ALIGNERS & EXPANSION
+- Families expand A value to HSG indices 1..7 using local aligners:
+  • CN: capped at 100; dual classes follow drained_condition; cast per rounding rules.
+  • RZ: multiplicative factors; dual classes follow drained_condition.
+  • Max net infiltration: multiplicative factors; dual classes follow drained_condition.
+- HSG count default is 7; 4 is supported by dropping indices 5..7 in WIDE.
+
+GROUP TEMPLATES (MATERIALIZATION)
+- Template row definition (for chosen primary_key domain):
+  • Chosen key column (lu_cdl if "cdl"; lu_nlcd if "nlcd") is blank.
+  • group is non-empty (e.g., "ALL" or a named group like "smgrain").
+  • column, bounds and parval1 provided (strict bounds enforced later for BOUNDED rows).
+- Precedence & overlay rules:
+  1) ALL applies to all codes present in LONG under the chosen primary_key.
+  2) Named group overwrites ALL baseline for codes in that group (from groups.tsv).
+  3) Code-specific rows (non-empty key) win over any template-derived value.
+- Canonicalization (critical operational rule):
+  • Normalize the chosen key column to canonical string codes before partitioning/materialization
+    (e.g., "24.0" → "24"). Assign the normalized Series back to df[key_col] so downstream
+    logic and build_wide see the same canonical codes.
+  • When loading groups.tsv, normalize the group’s key column the same way to avoid mismatches.
+
+CLI BEHAVIOR
+- Positional args are TSV paths:
+  • Default = LONG → WIDE (leading key column in output is lu_code, sourced from the selector’s primary_key).
+  • --to-long = WIDE → LONG baseline (include lu_code; leave lu_cdl/lu_nlcd empty).
+- --selector TOML controls:
+  • primary_key: "cdl" or "nlcd" (source for lu_code in WIDE).
+  • include_families: ["cn", "rz", "max_net_infil"] (which to expand).
+  • include_explicit: singleton columns to pass through unchanged.
+  • hsg_count: usually 7.
+- --groups: path to groups.tsv (columns: lu_cdl, lu_nlcd, group).
+  • Required for named-group templates; ALL templates work even without it.
+- --drained-condition drained|undrained (optional filter in forward mode).
+
+REVERSE MODE RULES (WIDE → LONG)
+- Detect land-use key as any column beginning with "lu_code" (case-insensitive).
+- Detect description columns as any name beginning with "description"; use the first non-empty per row.
+- Emit one LONG row for every parameter column in WIDE (skip land-use keys and description*).
+- LONG rows include:
+  lu_code (copied), lu_cdl="", lu_nlcd="", description, group="", column=<wide_col_name>,
+  parlbnd="", parubnd="", parval1=<value>, fixed_parval1="", num_decimals="", units="", notes="", ref="", drained_condition="".
+
+STYLE & PROCESS
+- Use Google-style docstrings for all significant functions.
+- Prefer minimal, composable patches; keep changes small and focused.
+- Prefer suggesting progress in small, self-contained steps to allow development to proceed in an understandable and testable way.
+- Fail fast on delimiter issues (TSV required), duplicates, and bounds violations.
+- Ask clarifying questions only when requests are ambiguous; otherwise proceed.
+
+DO
+- Provide concrete code edits, usage examples, and edge-case notes.
+- Keep schema names exact: drained_condition (not condition), max_net_infil (family), lu_code in WIDE.
+- Preserve human-editability of LONG tables; never hide or auto-infer CDL/NLCD mappings in reverse.
+
+DON’T
+- Introduce new dependencies unless necessary.
+- Add bounds or refs to WIDE; they belong in LONG.
+- Include volatile or internal links; keep this prompt self-contained.
+
+SESSION REMINDERS
+- Selector dictates families, singletons, primary key, and HSG count.
+- Aligners and expansion logic are local to the repo; ground responses in these contracts.
+- All tables must be true tab-delimited TSVs; space-delimited inputs should be rejected.
+
+REFERENCE INGESTION RULES
+- On session start, load the file `REFERENCES.md`.
+- Identify sections by Markdown headers (lines beginning with '## ').
+- Ingest ONLY the links contained under the section:
+  ## Startup References
+  INGESTION PROCEDURE (web-search compatible):
+  • For each link in that section, perform ONE web search using the URL or relevant keywords.
+  • From the search results, open pages that clearly correspond to the requested reference.
+  • Extract a short abstract summarizing the source and 5–10 key points relevant to the
+    swb2_parameters project (e.g., CN logic, HSG classes, infiltration, SWB2 structure).
+  • Record citation provenance from the search result used.
+- Do NOT ingest links in other sections unless the user explicitly requests:
+  "Ingest section <SectionName>"
+  or
+  "Ingest link <URL>".
+- Treat ingested summaries as session context. Use them to ground explanations, code reviews,
+  documentation edits, and reasoning. Prefer quoting or paraphrasing with citations.
+- If a link cannot be resolved by web search (non-public, missing, inaccessible), report gracefully.
+- Do not assume knowledge of any reference unless:
+  • it has been explicitly ingested via these rules, OR
+  • the user has uploaded the source file.
+- Respect repository contracts: never introduce external assumptions that contradict local files
+  such as NOTES.md or bootstrap_prompt.txt.
+- Operational notes:
+  • Use web browsing tools to open public GitHub pages, USGS publications, and PDFs.
+  • Summaries should be concise and focused on how the content informs `swb2_parameters`
+    (e.g., CN cap/logic, dual HSGs, expansion factors, bounds/rounding policy alignment).

@@ -1,7 +1,7 @@
 [project]
 name = "swb2_parameters"
-version = "0.1.0"
-description = "Long→wide parameter builder for SWB2 (CDL/NLCD, HSG families, singletons)"
+version = "2.0.0"
+description = "TOML-driven parameter table builder for SWB2"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Stephen M. Westenbroek" }]
@@ -19,3 +19,6 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
