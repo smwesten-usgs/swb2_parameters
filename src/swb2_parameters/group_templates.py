@@ -48,9 +48,6 @@ def _normalize_key_col(df: pd.DataFrame, col: str) -> pd.Series:
     # Apply _canon element-wise and return a Series
     out = s.apply(_canon)
 
-    # (Optional) tiny debug to confirm type + a few values
-    print("[_normalize_key_col] type:", type(out), "sample:", out.head(5).tolist())
-
     return out
 
 def _load_groups(groups_path: str | Path, primary_key: str) -> Dict[str, str]:
@@ -143,9 +140,6 @@ def materialize_group_templates(
     # Assign back so downstream logic uses canonical values
     df[key_col] = key_series
     
-    print("[call-site] type:", type(key_series))
-    print("[call-site] first 10:", key_series.head(10).tolist())
-
     code_rows = df[key_series != ""].copy()
     tmpl_rows = df[(key_series == "") & (df["group"].astype(str).str.strip() != "")].copy()
 
